@@ -8,8 +8,7 @@ function About() {
       <p className="about-content">
   Welcome to my blog! I’m Christi, and I’m glad you’ve found your way here. 
   This blog is a space where I share my journey of healing, growth, and the life experiences that have shaped me along the way. 
-  From navigating challenging workplaces and standing up to sexual discrimination, race discrimination, retaliation, and wrongful termination to finding new passions in web development, 
-  this is a place where I reflect on the adversities I’ve faced and the lessons I’ve learned through it all.
+  From navigating challenging workplaces and standing up to sexual discrimination, race discrimination, and retaliation, to confronting microaggressions and systemic racism, I reflect on the emotional, psychological, and professional toll these experiences take. This blog serves as a space to explore the adversities I’ve encountered and the lessons I’ve learned through them, including my journey of discovering new passions in web development and beyond.
 
   You’ll find posts on topics like microaggressions in the workplace, resilience through tough times, 
   and how we can all grow through adversity. After a five-year journey of fighting for my rights, 
