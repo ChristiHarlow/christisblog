@@ -1,5 +1,5 @@
 import React from 'react';
-import './Adversity.css';
+//import '../styles/Adversity.css';
 
 function Adversity() {
   return (
