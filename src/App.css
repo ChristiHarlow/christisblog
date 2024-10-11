@@ -36,7 +36,7 @@ button {
 }
 
 .App-header {
-  background-color: #AFCDE7; /* Pale Blue */
+  background-color: #AFCDE7 !important; /* Pale Blue */
   color: #333; /* Dark gray text for readability */
   min-height: 100vh;
   display: flex;
@@ -44,11 +44,10 @@ button {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #AFCDE7; /* Pale Blue for links */
 }
 
 @keyframes App-logo-spin {
