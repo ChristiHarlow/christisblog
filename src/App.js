@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<About />} />
           <Route path="/blog" element={<BlogPosts />} />
           <Route path="/blog/:id" element={<BlogPostDetails />} /> {/* Dynamic route for individual blog posts */}
-          <Route path="/adversity" element={<Adversity />} /> {/* Route for Adversity */}
+          <Route path="/blog/adversity" element={<Adversity />} /> {/* Route for Adversity */}
         </Routes>
       </div>
     </Router>
