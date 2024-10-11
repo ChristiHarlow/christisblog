@@ -13,7 +13,6 @@ function App() {
       <Navbar /> {/* Display navbar for navigation */}
       <div className="App">
         <Routes>
-          <Route path="/" element={<Header />} />
           <Route path="/about" element={<About />} />
           <Route path="/adversity" element={<Adversity />} />
           <Route path="/blog" element={<BlogPosts />} />
