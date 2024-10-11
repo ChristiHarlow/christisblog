@@ -1,9 +1,10 @@
 .adversity-container {
     background-color: #fdf5e6; /* Cream Eggshell background */
     color: #333; /* Dark gray for readability */
-    padding: 40px;
+    padding: 60px;
     margin: 20px auto;
-    width: 80%;
+    width: 90%;
+    max-width: 1200px; /* Set a maximum width */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
