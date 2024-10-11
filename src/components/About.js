@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
   return (
     <div>
-      <h1>About Christi's Blog</h1>
+      
       <p>
         Welcome to my blog! I’m Christi, and here I share my journey of healing,
         growth, and life experiences. You'll find posts on topics like racism and 
