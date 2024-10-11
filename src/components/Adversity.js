@@ -1,16 +1,14 @@
-import React from 'react';
+import './Adversity.css';
 
 function Adversity() {
   return (
-    <div>
+    <div className="adversity-container">
       <h1>Healing and Growth Through Adversity</h1>
-      <p>
-        This post explores how my experiences have led to personal growth and healing...
-        (Add more content here as you like)
-      </p>
+      <p>This post explores my journey of overcoming adversity...</p>
     </div>
   );
 }
 
 export default Adversity;
+
 

@@ -1,15 +1,17 @@
-import React from 'react';
-import '../styles/Header.css'; // Importing the CSS for styling
+import { Link } from 'react-router-dom';
+import './Header.css';
 
 function Header() {
   return (
     <header className="header">
-    <div className="header-container"></div>
-      <h1 className="header-title">Christi's Blog</h1>
-      <p className="header-subtitle">Healing, Growth, and Life Experiences</p>
+      <h1 className="header-title">
+        <Link to="/">Welcome to My Blog</Link>
+      </h1>
+      <p className="header-subtitle">A Journey of Healing and Growth</p>
     </header>
   );
 }
 
 export default Header;
+
 

@@ -1,25 +1,4 @@
-import React from 'react';
-
-const blogPosts = [
-  {
-    id: 1,
-    title: 'Healing and Growth Through Adversity',
-    content: 'This post explores how my experiences have led to personal growth and healing...',
-    category: 'Personal Growth'
-  },
-  {
-    id: 2,
-    title: 'Touched by Racism and Discrimination',
-    content: 'In 2018, I faced an experience that changed my perspective...',
-    category: 'Racism & Discrimination'
-  },
-  {
-    id: 3,
-    title: 'New Beginnings',
-    content: 'After years of working in different fields, I decided to make a career change...',
-    category: 'Other Life Experiences'
-  }
-];
+import { Link } from 'react-router-dom';
 
 function BlogPosts() {
   const categories = [...new Set(blogPosts.map(post => post.category))];
@@ -34,7 +13,8 @@ function BlogPosts() {
             .map(filteredPost => (
               <div key={filteredPost.id}>
                 <h3>{filteredPost.title}</h3>
-                <p>{filteredPost.content}</p>
+                <p>{filteredPost.content.substring(0, 100)}...</p> {/* Limit content length */}
+                <Link to={`/blog/${filteredPost.id}`}>Read More</Link>
               </div>
             ))}
         </div>
@@ -44,3 +24,4 @@ function BlogPosts() {
 }
 
 export default BlogPosts;
+
