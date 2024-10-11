@@ -1,10 +1,40 @@
 .adversity-container {
-    background-color: #f0f0f0;
-    padding: 20px;
-    color: #333;
+    background-color: #fdf5e6; /* Cream Eggshell background */
+    color: #333; /* Dark gray for readability */
+    padding: 40px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  h1 {
-    color: #6a5acd; /* Slate Blue for headings */
+  .adversity-title {
+    font-size: 2.5rem;
+    color: #ff6f61; /* Warm Coral */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .adversity-subtitle {
+    font-size: 2rem;
+    color: #6a5acd; /* Slate Blue */
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .adversity-content {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .adversity-content ol {
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+  
+  .adversity-content li {
+    margin-bottom: 10px;
   }
   
