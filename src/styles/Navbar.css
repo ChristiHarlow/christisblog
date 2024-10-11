@@ -1,0 +1,31 @@
+/* Navbar.css */
+.navbar {
+    background-color: #F2E6CE; /* Light beige for the navbar background */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style-type: none; /* Remove bullet points from list */
+    padding: 0;
+    margin: 0;
+    display: inline-block; /* Inline block layout for the links */
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin: 0 15px; /* Space between the links */
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #A67B5B; /* Warm brown for the links */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar ul li a:hover {
+    color: #8E9775; /* Olive green for hover */
+    text-decoration: underline;
+  }
+  
