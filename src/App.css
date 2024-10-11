@@ -14,11 +14,30 @@
 }
 
 body {
-  background-color: #f5f5dc; /* Beige */
+  background-color: #EADAC3; /* Sandy Beige */
+  color: #333; /* Darker text for readability */
+}
+
+h1, h2, h3 {
+  color: #C3A9E8; /* Soft Lavender for headings */
+}
+
+a {
+  color: #AFCDE7; /* Pale Blue for links */
+}
+
+button {
+  background-color: #CDE4D1; /* Light Mint Green for buttons */
+  color: #333;
+}
+
+.footer {
+  background-color: #F2C5C9; /* Blush Pink for footer */
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #AFCDE7; /* Pale Blue */
+  color: #333; /* Dark gray text for readability */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,4 +58,29 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Button Styles */
+button {
+  background-color: #CDE4D1; /* Light Mint Green */
+  border: none;
+  color: #333; /* Dark gray text */
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #AFCDE7; /* Pale Blue on hover */
+  cursor: pointer;
+}
+
+/* Link Styles */
+a {
+  color: #C3A9E8; /* Soft Lavender for links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F2C5C9; /* Blush Pink on hover */
+  text-decoration: underline;
 }
