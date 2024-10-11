@@ -4,9 +4,9 @@ import '../styles/About.css'; // Importing the CSS for styling
 function About() {
   return (
     <div className="about-container">
-      <h1 className="about-title">About Christi's Blog</h1>
+      <h1 className="about-title">About my Blog</h1>
       <p className="about-content">
-  Welcome to my blog! I’m Christi, and I’m glad you’ve found your way here. 
+  Welcome! I’m Christi, and I’m glad you’ve found your way here. 
   This blog is a space where I share my journey of healing, growth, and the life experiences that have shaped me along the way. 
   From navigating challenging workplaces and standing up to sexual discrimination, race discrimination, and retaliation, to confronting microaggressions and systemic racism, I reflect on the emotional, psychological, and professional toll these experiences take. This blog serves as a space to explore the adversities I’ve encountered and the lessons I’ve learned through them, including my journey of discovering new passions in web development and beyond.
 

@@ -5,7 +5,7 @@ import '../styles/Header.css'; // Ensure the path is correct
 function Header() {
   return (
     <header className="header">
-      <h1 className="header-title">Welcome to my Blog</h1>
+      <h1 className="header-title">Christi's Blog</h1>
       <nav className="navbar">
         <ul>
           <li><Link to="/">About</Link></li>
