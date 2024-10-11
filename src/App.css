@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: #EADAC3; /* Sandy Beige */
+  background-color: #f0f0f0; /* Light Gray */
   color: #333; /* Darker text for readability */
 }
 
@@ -23,7 +23,7 @@ h1, h2, h3 {
 }
 
 a {
-  color: #AFCDE7; /* Pale Blue for links */
+  color: #e9967a; /* Soft Coral for links */
 }
 
 button {
@@ -36,8 +36,8 @@ button {
 }
 
 .App-header {
-  background-color: #AFCDE7 !important; /* Pale Blue */
-  color: #333; /* Dark gray text for readability */
+  background-color: #6a5acd; /* Slate Blue */
+  color: #f0f0f0; /* Light text for readability */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -61,7 +61,7 @@ button {
 
 /* Button Styles */
 button {
-  background-color: #CDE4D1; /* Light Mint Green */
+  background-color: #e9967a; /* Soft Coral */
   border: none;
   color: #333; /* Dark gray text */
   padding: 10px 20px;
