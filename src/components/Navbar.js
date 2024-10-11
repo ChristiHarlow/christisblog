@@ -6,7 +6,6 @@ function Navbar() {
   return (
     <nav>
       <ul>
-        <li><Link to="/">Header</Link></li> {/* Changed Home to Header */}
         <li><Link to="/about">About</Link></li>
         <li><Link to="/blog">Blog</Link></li>
         <li><Link to="/adversity">Adversity</Link></li>
