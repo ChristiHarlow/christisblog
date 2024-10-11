@@ -18,6 +18,10 @@
   margin-top: 10px;
 }
 
+.header-art-container {
+  max-width: 200px; /* Adjust this to control the size of the image */
+  margin: 0 auto; /* Centers the art */
+} 
 .header-art {
   width: 100%; /* Adjust size to fit the header */
   margin-top: 10px;

@@ -16,6 +16,10 @@
   margin: 10px 0;
 }
 
+.footer-art-container {
+  max-width: 200px; /* Adjust size to control the image */
+  margin: 0 auto;
+}
 .footer-art {
   width: 100%; /* Adjust size to fit the footer */
   margin-top: 10px;
