@@ -1,0 +1,22 @@
+.header {
+    background-color: #8E9775; /* Olive Green */
+    color: #F2E6CE; /* Light Beige */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #A67B5B; /* Warm Brown accent for a border */
+  }
+  
+  .header-title {
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'Georgia', serif; /* A professional, classic font for the title */
+    color: #F2E6CE; /* Light Beige */
+  }
+  
+  .header-subtitle {
+    font-size: 1.5rem;
+    margin: 5px 0 0 0;
+    color: #A67B5B; /* Warm Brown for a subtle accent */
+    font-family: 'Arial', sans-serif; /* Complementary sans-serif for readability */
+  }
+  
