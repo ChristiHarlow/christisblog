@@ -1,22 +1,21 @@
-import React from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import './App.css';
 import About from './components/About';
 import Adversity from './components/Adversity';
-import BlogPostDetails from './components/BlogPostDetails'; // New component for post details
 import BlogPosts from './components/BlogPosts';
 import Header from './components/Header';
+import Navbar from './components/Navbar'; // Import Navbar if added
 
 function App() {
   return (
-    <Router basename="/blog"> {/* Your app code */}
+    <Router>
+      <Header /> {/* Display header */}
+      <Navbar /> {/* Display navbar for navigation */}
       <div className="App">
-        <Header />
         <Routes>
-          <Route path="/" element={<About />} />
+          <Route path="/" element={<Header />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/adversity" element={<Adversity />} />
           <Route path="/blog" element={<BlogPosts />} />
-          <Route path="/blog/:id" element={<BlogPostDetails />} /> {/* Dynamic route for individual blog posts */}
-          <Route path="/blog/adversity" element={<Adversity />} /> {/* Route for Adversity */}
         </Routes>
       </div>
     </Router>
@@ -24,5 +23,6 @@ function App() {
 }
 
 export default App;
+
 
 
