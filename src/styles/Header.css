@@ -1,25 +1,28 @@
 /* Header styles */
 .header {
-    background-color: #6a5acd; /* Slate Blue */
-    color: #f0f0f0; /* Light text for readability */
-    padding: 20px;
-    text-align: center;
-    border-bottom: 5px solid #A67B5B; /* Warm Brown accent for a border */
-  }
-  
-  .header-title {
-    font-size: 2.5rem;
-    margin: 0;
-    font-family: 'Georgia', serif; /* A professional, classic font for the title */
-    color: #f0f0f0; /* Light text */
-  }
-  
-  .header-subtitle {
-    font-size: 1.5rem;
-    margin: 5px 0 0 0;
-    color: #A67B5B; /* Warm Brown for a subtle accent */
-    font-family: 'Arial', sans-serif; /* Complementary sans-serif for readability */
-  }
+  background-color: #AFCDE7;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #A67B5B;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  color: #F2E6CE;
+  margin: 0;
+}
+
+.header-tagline {
+  font-size: 1.2rem;
+  color: #F2E6CE;
+  margin-top: 10px;
+}
+
+.header-art {
+  width: 100%; /* Adjust size to fit the header */
+  margin-top: 10px;
+}
+
   
 
   

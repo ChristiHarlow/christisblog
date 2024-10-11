@@ -1,0 +1,22 @@
+.footer {
+  background-color: #AFCDE7;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid #A67B5B;
+}
+
+.footer-content {
+  position: relative;
+  z-index: 1;
+}
+
+.footer-tagline {
+  color: #F2E6CE;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.footer-art {
+  width: 100%; /* Adjust size to fit the footer */
+  margin-top: 10px;
+}
