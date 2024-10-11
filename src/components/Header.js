@@ -6,6 +6,7 @@ function Header() {
     <header className="header">
     <img src="/images/blog-art.png" alt="Blog Art" className="header-art" /> {/* Use blog-art.png */}
       <h1 className="header-title">Christi's Blog</h1> {/* Keep it simple */}
+      <p className="header-tagline">Sharing experiences on healing, growth, and life challenges</p>
     </header>
   );
 }
