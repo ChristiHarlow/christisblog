@@ -18,7 +18,7 @@
 .navbar-link {
   text-decoration: none;
   font-size: 1.2rem;
-  color: #ffffff; /* Deep navy for link text */
+  color: #fdf5e6;; /* Eggshell for link text */
   font-family: 'Arial', sans-serif;
   padding: 10px 20px;
   border-radius: 5px; /* Rounded corners for buttons */
@@ -27,7 +27,7 @@
 
 .navbar-link:hover {
   background-color:  #003366; /* Bright coral on hover for emphasis */
-  color: #ffffff; /* White text on hover */
+  color: #fdf5e6; /* Eggshell text on hover */
 }
 
 .navbar-link:active {

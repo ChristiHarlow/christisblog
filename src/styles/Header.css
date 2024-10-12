@@ -7,13 +7,13 @@
 
 .header-title {
   font-size: 2.5rem;
-  color: #ffffff; /* Deep navy for the title */
+  color: #fdf5e6; /* Eggshell for the title */
   margin: 0;
 }
 
 .header-tagline {
   font-size: 1.2rem;
-  color: #ffffff; /* Bright coral for the tagline */
+  color: #fdf5e6; /* Eggshell for the tagline */
   margin-top: 10px;
 }
 

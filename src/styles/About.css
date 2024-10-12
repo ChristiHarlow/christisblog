@@ -1,6 +1,6 @@
 /* About Page Styles */
 .about-container {
-  background-color: #ffffff; /* White background to match the blog */
+  background-color: #fdf5e6; /* Eggshell background to match the blog */
   color: #333; /* Dark gray for readability */
   padding: 40px;
   margin: 20px auto;
@@ -26,7 +26,7 @@
 }
 
 body {
-  background-color: #ffffff; /* White background to match the overall site */
+  background-color: #fdf5e6; /* Eggshell background to match the overall site */
   color: #333; /* Dark gray for readability */
 }
 
@@ -40,7 +40,7 @@ a {
 
 button {
   background-color: #ffcc00; /* Mustard yellow for buttons */
-  color: #ffffff; /* White text for button contrast */
+  color: #fdf5e6; /* Eggshell text for button contrast */
   padding: 10px 20px;
   border-radius: 5px;
 }
@@ -51,6 +51,6 @@ button:hover {
 }
 
 .footer {
-  background-color: #ffffff; /* White for a clean footer */
+  background-color: #fdf5e6; /* Eggshell for a clean footer */
   color: #003366; /* Deep navy for the footer text */
 }

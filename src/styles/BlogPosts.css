@@ -6,7 +6,7 @@
   flex-direction: column;   /* Ensure content is stacked vertically */
   margin: 0 auto;
   max-width: 900px;         /* Increased max width for better layout */
-  background-color: #ffffff; /* White background for consistency */
+  background-color: #fdf5e6; /* Eggshell background for consistency */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
@@ -40,6 +40,6 @@ a:hover {
 }
 
 body {
-  background-color: #ffffff; /* White background for the overall site */
+  background-color: #fdf5e6; /* Eggshell background for the overall site */
   color: #333; /* Dark gray for text readability */
 }
