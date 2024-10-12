@@ -1,59 +1,56 @@
 /* About Page Styles */
 .about-container {
-    background-color: #A67B5B; /* Muted Peach for the background */
-    color: #333; /* Darker text for readability */
-    padding: 40px;
-    margin: 20px auto;
-    width: 80%;
-    border-radius: 8px; /* Soft corners for a welcoming look */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  }
-  
-  .about-title {
-    font-size: 2.5rem;
-    color: #fdf5e6; /* Warmer Coral for the title */
-    text-align: center;
-    margin-bottom: 20px;
-    font-family: 'Georgia', serif; /* Professional, classic font */
-  }
-  
-  .about-content {
-    font-size: 1.2rem;
-    color: #6a5acd; /* Pale Pink for paragraph text */
-    line-height: 1.6;
-    font-family: 'Arial', sans-serif; /* Clean, readable font */
-    text-align: justify;
-  }
-  
+  background-color: #ffffff; /* White background to match the blog */
+  color: #333; /* Dark gray for readability */
+  padding: 40px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 8px; /* Soft corners for a welcoming look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.about-title {
+  font-size: 2.5rem;
+  color: #003366; /* Deep navy for the title */
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif; /* Professional, classic font */
+}
+
+.about-content {
+  font-size: 1.2rem;
+  color: #ff6f61; /* Bright coral for paragraph text */
+  line-height: 1.6;
+  font-family: 'Arial', sans-serif; /* Clean, readable font */
+  text-align: justify;
+}
 
 body {
-    background-color: #fdf5e6; /* Cream Eggshell for the background */
-    color: #333; /* Dark gray for readability */
-  }
-  
-  h1, h2, h3 {
-    color: #C3A9E8; /* Soft Lavender for headings */
-  }
-  
-  a {
-    color: #fdf5e6; /* Soft Coral for links */
-  }
-  
-  button {
-    background-color: #CDE4D1; /* Light Mint Green for buttons */
-    color: #333;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
-  
-  button:hover {
-    background-color: #AFCDE7; /* Pale Blue on hover */
-    cursor: pointer;
-  }
-  
-  .footer {
-    background-color: #F2C5C9; /* Blush Pink for footer */
-    color: #333;
-  }
-  
-  
+  background-color: #ffffff; /* White background to match the overall site */
+  color: #333; /* Dark gray for readability */
+}
+
+h1, h2, h3 {
+  color: #003366; /* Deep navy for headings */
+}
+
+a {
+  color: #00ffff; /* Aqua blue for links */
+}
+
+button {
+  background-color: #ffcc00; /* Mustard yellow for buttons */
+  color: #ffffff; /* White text for button contrast */
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ff6f61; /* Bright coral on hover */
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #ffffff; /* White for a clean footer */
+  color: #003366; /* Deep navy for the footer text */
+}

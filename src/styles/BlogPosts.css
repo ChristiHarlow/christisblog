@@ -5,12 +5,16 @@
   align-items: flex-start;  /* Align items to the top */
   flex-direction: column;   /* Ensure content is stacked vertically */
   margin: 0 auto;
-  max-width: 800px;         /* Sets a max width for better layout */
+  max-width: 900px;         /* Increased max width for better layout */
+  background-color: #ffffff; /* White background for consistency */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 h2 {
-  color: #6a5acd; /* Slate Blue for headings */
+  color: #003366; /* Deep navy for main headings */
   text-align: center; /* Center the main heading */
+  margin-bottom: 20px;
 }
 
 .blog-container div {
@@ -21,14 +25,21 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  color: #333; /* Dark text for readability */
+  color: #ff6f61; /* Bright coral for subheadings */
+  margin-bottom: 10px;
 }
 
 a {
-  color: #6a5acd; /* Slate Blue for links */
+  color: #00ffff; /* Aqua blue for links */
   text-decoration: none;
+  font-weight: bold; /* Bold for emphasis */
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+body {
+  background-color: #ffffff; /* White background for the overall site */
+  color: #333; /* Dark gray for text readability */
 }

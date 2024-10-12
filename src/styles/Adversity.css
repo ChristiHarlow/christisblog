@@ -1,41 +1,42 @@
 .adversity-container {
-    background-color: #fdf5e6; /* Cream Eggshell background */
-    color: #333; /* Dark gray for readability */
-    padding: 60px;
-    margin: 20px auto;
-    width: 90%;
-    max-width: 1200px; /* Set a maximum width */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .adversity-title {
-    font-size: 2.5rem;
-    color: #ff6f61; /* Warm Coral */
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .adversity-subtitle {
-    font-size: 2rem;
-    color: #6a5acd; /* Slate Blue */
-    margin-top: 30px;
-    margin-bottom: 15px;
-  }
-  
-  .adversity-content {
-    font-size: 1.2rem;
-    color: #333;
-    line-height: 1.6;
-    text-align: justify;
-  }
-  
-  .adversity-content ol {
-    margin: 20px 0;
-    padding-left: 20px;
-  }
-  
-  .adversity-content li {
-    margin-bottom: 10px;
-  }
-  
+  background-color: #ffffff; /* White background to match the overall site */
+  color: #333; /* Dark gray for readability */
+  padding: 60px;
+  margin: 20px auto;
+  width: 95%; /* Increased width for a larger container */
+  max-width: 1400px; /* Adjusted maximum width */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.adversity-title {
+  font-size: 2.5rem;
+  color: #003366; /* Deep navy for the title */
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif; /* Professional, classic font */
+}
+
+.adversity-subtitle {
+  font-size: 2rem;
+  color: #ffcc00; /* Mustard yellow for subtitles */
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.adversity-content {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+  text-align: justify;
+  font-family: 'Arial', sans-serif; /* Clean and readable font */
+}
+
+.adversity-content ol {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.adversity-content li {
+  margin-bottom: 10px;
+}
