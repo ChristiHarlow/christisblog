@@ -19,7 +19,7 @@
 
 .header-art-container {
   max-width: 100%; /* Make the container span the full width */
-  height: 150px; /* Adjust the height to make it shorter */
+  height: 250px; /* Adjust the height to make it shorter */
   margin: 0 auto; /* Center the container */
   overflow: hidden; /* Hide any overflow if the image is too large */
 }
