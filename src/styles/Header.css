@@ -1,19 +1,19 @@
 .header {
-  background-color: #ffffff; /* Background color from the palette (white) */
+  background-color: #ffcc00; /* Background color from the palette (white) */
   padding: 20px;
   text-align: center;
-  border-bottom: 2px solid #ffcc00; /* Mustard yellow as an accent color */
+  border-bottom: 2px solid #003366; /* Mustard yellow as an accent color */
 }
 
 .header-title {
   font-size: 2.5rem;
-  color: #003366; /* Deep navy for the title */
+  color: #ffffff; /* Deep navy for the title */
   margin: 0;
 }
 
 .header-tagline {
   font-size: 1.2rem;
-  color: #ff6f61; /* Bright coral for the tagline */
+  color: #ffffff; /* Bright coral for the tagline */
   margin-top: 10px;
 }
 
@@ -28,7 +28,6 @@
 .header-art {
   width: 100%; /* Adjust size to fit the header */
   margin-top: 10px;
-  border: 2px solid #00ffff; /* Aqua blue as a highlight around the image */
 }
 
   

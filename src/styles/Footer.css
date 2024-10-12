@@ -1,8 +1,8 @@
 .footer {
-  background-color: #ffffff; /* White background to match the header */
+  background-color: #ffcc00; /* White background to match the header */
   padding: 20px;
   text-align: center;
-  border-top: 2px solid #ffcc00; /* Mustard yellow for the top border */
+  border-top: 2px solid #003366; /* Mustard yellow for the top border */
 }
 
 .footer-content {
@@ -11,7 +11,7 @@
 }
 
 .footer-tagline {
-  color: #003366; /* Deep navy for the tagline */
+  color:  #ffffff; /* White for the tagline */
   font-size: 1.2rem;
   margin: 10px 0;
 }
@@ -27,6 +27,5 @@
 .footer-art {
   width: 100%; /* Make the image responsive to the footer */
   margin-top: 10px;
-  border: 2px solid #00ffff; /* Aqua blue for the art border, similar to the header */
 }
 
