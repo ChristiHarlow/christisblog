@@ -18,9 +18,12 @@
 }
 
 .header-art-container {
-  max-width: 200px; /* Adjust this to control the size of the image */
-  margin: 0 auto; /* Centers the art */
+  max-width: 100%; /* Make the container span the full width */
+  height: 150px; /* Adjust the height to make it shorter */
+  margin: 0 auto; /* Center the container */
+  overflow: hidden; /* Hide any overflow if the image is too large */
 }
+
 
 .header-art {
   width: 100%; /* Adjust size to fit the header */
