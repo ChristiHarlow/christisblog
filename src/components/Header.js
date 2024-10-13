@@ -6,7 +6,7 @@ function Header() {
     <header className="header">
       {/* Banner Image */}
       <div className="header-banner-container">
-        <img src="/images/your-banner.png" alt="Banner" className="header-banner" />
+        <img src="/images/headerr-banner.png" alt="Banner" className="header-banner" />
 
         {/* Overlaying Navbar Links */}
         <nav className="overlay-navbar">
