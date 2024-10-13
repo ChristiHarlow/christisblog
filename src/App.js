@@ -4,7 +4,7 @@ import Adversity from './components/Adversity';
 import BlogPosts from './components/BlogPosts';
 import Footer from './components/Footer'; // Import Footer if added
 import Header from './components/Header';
-import Navbar from './components/Navbar'; // Import Navbar if added
+//import Navbar from './components/Navbar'; // Import Navbar if added
 
 function App() {
   return (
