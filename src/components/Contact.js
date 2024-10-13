@@ -15,11 +15,14 @@ function Contact() {
     });
   };
 
+  // Generate a mailto link for sending the email
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Logic to handle form submission, such as sending the data to an API
-    console.log(formData);
-    alert('Thank you for reaching out! I will get back to you soon.');
+
+    const mailtoLink = `mailto:christiharlow@outlook.com?subject=Message from ${formData.name}&body=Email: ${formData.email}%0D%0A%0D%0A${formData.message}`;
+    window.location.href = mailtoLink;
+
+    // Reset the form after submission
     setFormData({
       name: '',
       email: '',
