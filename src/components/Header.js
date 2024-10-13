@@ -1,20 +1,18 @@
 import React from 'react';
-import '../styles/Header.css'; // Make sure your styles are correctly imported
+import '../styles/Header.css'; // Ensure correct path to CSS file
 
 function Header() {
   return (
     <header className="header">
-      <div className="header-content">
-        {/* Header Image */}
-        <div className="header-art-container">
-          <img src="/images/canva-header.png" alt="Blog Art" className="header-art" />
-        </div>
-        {/* Navbar */}
-        <nav className="navbar">
-          <a href="/about" className="nav-link">About</a>
-          <a href="/team" className="nav-link">Team</a>
-          <a href="/home" className="nav-link">Home</a>
-          <button className="menu-button">☰</button> {/* Optional menu button */}
+      {/* Banner Image */}
+      <div className="header-banner-container">
+        <img src="/images/your-banner.png" alt="Banner" className="header-banner" />
+
+        {/* Overlaying Navbar Links */}
+        <nav className="overlay-navbar">
+          <a href="/about" className="overlay-link" style={{ top: '50px', left: '100px' }}>About</a>
+          <a href="/team" className="overlay-link" style={{ top: '50px', left: '250px' }}>Team</a>
+          <a href="/home" className="overlay-link" style={{ top: '50px', left: '400px' }}>Home</a>
         </nav>
       </div>
     </header>
