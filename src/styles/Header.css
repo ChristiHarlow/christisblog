@@ -1,31 +1,50 @@
+/* Style for the header container */
 .header {
-  background-color: #471dbf; /* Deep Blue background */
-  padding: 20px;
-  text-align: center;
-  border-bottom: 2px solid #dd6fde; /* Vibrant Pink for contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #ffcc00; /* Adjust based on your preferences */
 }
 
-.header-title {
-  font-size: 2.5rem;
-  color: #ecdcec; /* Light Lavender for text */
-  margin: 0;
+/* Flexbox for the content inside the header */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
-.header-tagline {
-  font-size: 1.2rem;
-  color: #ecdcec; /* Light Lavender for readability */
-  margin-top: 10px;
-}
-
+/* Style for the header image */
 .header-art-container {
-  max-width: 200px;
-  margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
 
 .header-art {
-  width: 100%;
-  margin-top: 10px;
+  max-height: 100px; /* Adjust size to your needs */
 }
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #003366; /* Adjust based on your design */
+  font-size: 1rem;
+}
+
+/* Optional menu button for mobile */
+.menu-button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
 
 
   
