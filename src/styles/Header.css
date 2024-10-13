@@ -22,18 +22,21 @@
 .overlay-link {
   position: absolute;
   text-decoration: none;
-  color: #ffffff; /* Set color based on banner design */
+  color: #ecdcec; /* Light Lavender for the text */
   font-size: 1.2rem;
   padding: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.5); /* Optional background for visibility */
+  background-color: #522c7f; /* Dark Purple for background */
   border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
-/* Optional: Add hover effect for buttons */
+/* Hover effect for buttons */
 .overlay-link:hover {
-  background-color: rgba(255, 255, 255, 0.7);
-  color: #003366; /* Adjust based on your design */
+  background-color: #471dbf; /* Deep Blue on hover */
+  color: #54ddcd; /* Turquoise for the text on hover */
 }
+
+/* Optional: For different link positions, adjust top and left values */
 
 
 
