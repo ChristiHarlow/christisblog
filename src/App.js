@@ -1,4 +1,12 @@
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import About from './components/About';
+import Adversity from './components/Adversity';
+import BlogPosts from './components/BlogPosts';
 import Contact from './components/Contact'; // Import the Contact component
+import Footer from './components/Footer';
+import Header from './components/Header';
+
+
 
 function App() {
   return (
