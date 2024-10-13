@@ -61,3 +61,31 @@
     background-color: #dd6fde; /* Vibrant Pink on hover */
   }
   
+  @font-face {
+    font-family: 'Garet';
+    src: url('/fonts/Garet-Regular.woff2') format('woff2'),
+         url('/fonts/Garet-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Garet';
+    src: url('/fonts/Garet-Bold.woff2') format('woff2'),
+         url('/fonts/Garet-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  /* Apply Garet as the default font for the entire site */
+  body {
+    font-family: 'Garet', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Garet', sans-serif;
+  }
+  
+  p, a, button {
+    font-family: 'Garet', sans-serif;
+  }
