@@ -1,5 +1,5 @@
 .adversity-container {
-  background-color: #fdf5e6; /* Eggshell background to match the overall site */
+  background-color: #ecdcec; /* Light Lavender background to match your palette */
   color: #333; /* Dark gray for readability */
   padding: 60px;
   margin: 20px auto;
@@ -11,7 +11,7 @@
 
 .adversity-title {
   font-size: 2.5rem;
-  color: #003366; /* Deep navy for the title */
+  color: #471dbf; /* Deep Blue for the title */
   text-align: center;
   margin-bottom: 20px;
   font-family: 'Georgia', serif; /* Professional, classic font */
@@ -19,14 +19,14 @@
 
 .adversity-subtitle {
   font-size: 2rem;
-  color: #ffcc00; /* Mustard yellow for subtitles */
+  color: #dd6fde; /* Vibrant Pink for subtitles */
   margin-top: 30px;
   margin-bottom: 15px;
 }
 
 .adversity-content {
   font-size: 1.2rem;
-  color: #333;
+  color: #333; /* Keep dark gray for readability */
   line-height: 1.6;
   text-align: justify;
   font-family: 'Arial', sans-serif; /* Clean and readable font */
@@ -40,3 +40,4 @@
 .adversity-content li {
   margin-bottom: 10px;
 }
+

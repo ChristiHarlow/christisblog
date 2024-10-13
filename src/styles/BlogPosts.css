@@ -6,13 +6,13 @@
   flex-direction: column;   /* Ensure content is stacked vertically */
   margin: 0 auto;
   max-width: 900px;         /* Increased max width for better layout */
-  background-color: #fdf5e6; /* Eggshell background for consistency */
+  background-color: #ecdcec; /* Light Lavender background */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 h2 {
-  color: #003366; /* Deep navy for main headings */
+  color: #471dbf; /* Deep Blue for main headings */
   text-align: center; /* Center the main heading */
   margin-bottom: 20px;
 }
@@ -20,26 +20,15 @@ h2 {
 .blog-container div {
   margin-bottom: 20px;
   padding: 15px;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #8c99ec; /* Soft Blue border for divs */
 }
 
 h3 {
   font-size: 1.5rem;
-  color: #ff6f61; /* Bright coral for subheadings */
+  color: #dd6fde; /* Vibrant Pink for subheadings */
   margin-bottom: 10px;
 }
 
 a {
-  color: #00ffff; /* Aqua blue for links */
-  text-decoration: none;
-  font-weight: bold; /* Bold for emphasis */
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-body {
-  background-color: #fdf5e6; /* Eggshell background for the overall site */
-  color: #333; /* Dark gray for text readability */
-}
+  color: #54ddcd; /* Turquoise for links */
+  text

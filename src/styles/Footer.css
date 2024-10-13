@@ -26,4 +26,16 @@
   margin-top: 10px;
 }
 
+/* Additional Hover Effects for Links or Buttons */
+.footer a {
+  color: #54ddcd; /* Turquoise for links */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #8c99ec; /* Soft Blue on hover */
+}
+
+
 

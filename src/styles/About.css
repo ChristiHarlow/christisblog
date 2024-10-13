@@ -1,6 +1,6 @@
 /* About Page Styles */
 .about-container {
-  background-color: #fdf5e6; /* Eggshell background to match the blog */
+  background-color: #ecdcec; /* Light Lavender background to match the blog */
   color: #333; /* Dark gray for readability */
   padding: 40px;
   margin: 20px auto;
@@ -11,7 +11,7 @@
 
 .about-title {
   font-size: 2.5rem;
-  color: #003366; /* Deep navy for the title */
+  color: #471dbf; /* Deep Blue for the title */
   text-align: center;
   margin-bottom: 20px;
   font-family: 'Georgia', serif; /* Professional, classic font */
@@ -19,23 +19,23 @@
 
 .about-content {
   font-size: 1.2rem;
-  color: #ff6f61; /* Bright coral for paragraph text */
+  color: #dd6fde; /* Vibrant Pink for paragraph text */
   line-height: 1.6;
   font-family: 'Arial', sans-serif; /* Clean, readable font */
   text-align: justify;
 }
 
 body {
-  background-color: #fdf5e6; /* Eggshell background to match the overall site */
+  background-color: #ecdcec; /* Light Lavender background to match the overall site */
   color: #333; /* Dark gray for readability */
 }
 
 h1, h2, h3 {
-  color: #003366; /* Deep navy for headings */
+  color: #471dbf; /* Deep Blue for headings */
 }
 
 a {
-  color: #00ffff; /* Aqua blue for links */
+  color: #54ddcd; /* Turquoise for links */
 }
 
 button {
@@ -46,11 +46,12 @@ button {
 }
 
 button:hover {
-  background-color: #ff6f61; /* Bright coral on hover */
+  background-color: #dd6fde; /* Vibrant Pink on hover */
   cursor: pointer;
 }
 
 .footer {
-  background-color: #fdf5e6; /* Eggshell for a clean footer */
-  color: #003366; /* Deep navy for the footer text */
+  background-color: #ecdcec; /* Light Lavender for a clean footer */
+  color: #471dbf; /* Deep Blue for the footer text */
 }
+
