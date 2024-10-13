@@ -6,7 +6,7 @@ function Header() {
     <header className="header">
     <h1 className="header-title">Christi's Blog</h1> {/* Keep it simple */}
      <div className="header-art-container">
-        <img src="/images/blog-art.png" alt="Blog Art" className="header-art" />
+        <img src="/images/canva-header.png" alt="Blog Art" className="header-art" />
       </div>
     <p className="header-tagline">Sharing experiences on healing, growth, and life challenges</p>
     </header>
