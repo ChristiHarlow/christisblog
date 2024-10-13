@@ -77,11 +77,12 @@
     font-style: normal;
   }
   
-  /* Apply Garet as the default font for the entire site */
+  /* Apply Garet as the default font */
   body {
     font-family: 'Garet', sans-serif;
   }
   
+  /* Optionally apply Garet to specific elements */
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Garet', sans-serif;
   }
@@ -89,3 +90,4 @@
   p, a, button {
     font-family: 'Garet', sans-serif;
   }
+  
