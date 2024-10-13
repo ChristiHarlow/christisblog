@@ -1,18 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/Header.css'; // Ensure correct path to CSS file
 
 function Header() {
+  const [dropdownVisible, setDropdownVisible] = useState(false);
+
+  const toggleDropdown = () => {
+    setDropdownVisible(!dropdownVisible);
+  };
+
   return (
     <header className="header">
-      {/* Banner Image */}
+      {/* Header with Banner */}
       <div className="header-banner-container">
-        <img src="/images/headernpr-banner.png" alt="Banner" className="header-banner" />
-
-        {/* Overlaying Navbar Links */}
-        <nav className="overlay-navbar">
-          <a href="/about" className="overlay-link" style={{ top: '50px', left: '100px' }}>About</a>
-          <a href="/team" className="overlay-link" style={{ top: '50px', left: '250px' }}>Team</a>
-          <a href="/home" className="overlay-link" style={{ top: '50px', left: '400px' }}>Home</a>
+        <img src="/images/your-banner.png" alt="Banner" className="header-banner" />
+        {/* Navbar */}
+        <nav className="navbar">
+          <a href="/about" className="nav-link">About</a>
+          <div className="dropdown">
+            <button className="nav-link dropdown-button" onClick={toggleDropdown}>Blogs</button>
+            {dropdownVisible && (
+              <div className="dropdown-menu">
+                <a href="/blogs/adversity" className="dropdown-item">Adversity</a>
+                {/* Add more blogs here */}
+              </div>
+            )}
+          </div>
+          <a href="/contact" className="nav-link">Contact</a>
         </nav>
       </div>
     </header>
@@ -20,6 +33,7 @@ function Header() {
 }
 
 export default Header;
+
 
 
 
