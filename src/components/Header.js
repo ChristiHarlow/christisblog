@@ -1,6 +1,4 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Header.css';
 
 function Header() {
   return (
@@ -13,10 +11,9 @@ function Header() {
             <button className="nav-link dropdown-button">Blogs</button>
             <div className="dropdown-menu">
               <Link to="/blogs/adversity" className="dropdown-item">Adversity</Link>
-              {/* Add more blog links here */}
             </div>
           </div>
-          <Link to="/contact" className="nav-link">Contact</Link>
+          <Link to="/contact" className="nav-link">Contact</Link> {/* Add Contact link */}
         </nav>
       </div>
     </header>
