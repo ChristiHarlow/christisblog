@@ -1,34 +1,32 @@
 .header {
-  background-color: #ffcc00; /* Background color from the palette (white) */
+  background-color: #471dbf; /* Deep Blue background */
   padding: 20px;
   text-align: center;
-  border-bottom: 2px solid #003366; /* Mustard yellow as an accent color */
+  border-bottom: 2px solid #dd6fde; /* Vibrant Pink for contrast */
 }
 
 .header-title {
   font-size: 2.5rem;
-  color: #fdf5e6; /* Eggshell for the title */
+  color: #ecdcec; /* Light Lavender for text */
   margin: 0;
 }
 
 .header-tagline {
   font-size: 1.2rem;
-  color: #fdf5e6; /* Eggshell for the tagline */
+  color: #ecdcec; /* Light Lavender for readability */
   margin-top: 10px;
 }
 
 .header-art-container {
-  max-width: 100%; /* Make the container span the full width */
-  height: 250px; /* Adjust the height to make it shorter */
-  margin: 0 auto; /* Center the container */
-  overflow: hidden; /* Hide any overflow if the image is too large */
+  max-width: 200px;
+  margin: 0 auto;
 }
-
 
 .header-art {
-  width: 100%; /* Adjust size to fit the header */
+  width: 100%;
   margin-top: 10px;
 }
+
 
   
 
