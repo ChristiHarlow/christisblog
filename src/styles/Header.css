@@ -1,65 +1,67 @@
 /* Banner container */
 .header-banner-container {
-    position: relative;
-    width: 100%;
-    height: auto;
-  }
-  
-  /* Banner image */
-  .header-banner {
-    width: 100%;
-    height: auto;
-  }
-  
-  /* Navbar positioned in the top-right corner of the banner */
-  .navbar {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    display: flex;
-    gap: 1rem;
-  }
-  
-  /* Navbar links */
-  .nav-link {
-    text-decoration: none;
-    color: #ecdcec; /* Light Lavender for text */
-    font-size: 1.2rem;
-    padding: 0.5rem;
-    background-color: #522c7f; /* Dark Purple background */
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .nav-link:hover {
-    background-color: #471dbf; /* Deep Blue on hover */
-  }
-  
-  /* Dropdown menu */
-  .dropdown-menu {
-    position: absolute;
-    display: none;
-    top: 100%;
-    left: 0;
-    background-color: #471dbf; /* Deep Blue for dropdown background */
-    border-radius: 5px;
-    z-index: 1;
-  }
-  
-  .dropdown:hover .dropdown-menu {
-    display: block;
-  }
-  
-  .dropdown-item {
-    color: #ecdcec; /* Light Lavender for dropdown items */
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-item:hover {
-    background-color: #dd6fde; /* Vibrant Pink on hover */
-  }
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+/* Banner image */
+.header-banner {
+  width: 100%;
+  height: auto;
+}
+
+/* Navbar positioned in the top-right corner of the banner */
+.navbar {
+  position: absolute; /* Makes sure the navbar is positioned within the banner */
+  top: 10px;          /* Adjust for vertical positioning */
+  right: 20px;        /* Adjust for horizontal positioning */
+  display: flex;
+  gap: 1rem;          /* Space between links */
+}
+
+/* Navbar links */
+.nav-link {
+  text-decoration: none;
+  color: #ecdcec; /* Light Lavender for text */
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  background-color: #522c7f; /* Dark Purple background */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #471dbf; /* Deep Blue on hover */
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  background-color: #471dbf; /* Deep Blue for dropdown background */
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  color: #ecdcec; /* Light Lavender for dropdown items */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-item:hover {
+  background-color: #dd6fde; /* Vibrant Pink on hover */
+}
+
   
 
   
