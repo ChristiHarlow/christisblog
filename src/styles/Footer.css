@@ -1,37 +1,25 @@
 .footer {
-  background-color: #ffffff; /* White background for the footer */
+  background-color: #522c7f; /* Dark Pink background */
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  border-top: 2px solid #dd6fde; /* Optional: Vibrant Pink border for contrast */
-  min-height: 300px; /* Adjust based on your banner size */
-  width: 100vw; /* Ensures the footer spans the full width of the page */
+  text-align: center;
+  border-top: 2px solid #dd6fde; /* Vibrant Pink border for contrast */
+  width: auto; /* Remove the 100vw setting and make it auto */
+  margin: 0 auto; /* Center the footer */
   position: relative;
 }
 
-.footer-art-container {
-  width: 100%;
-  height: auto;
-}
-
-.footer-art {
-  width: 100%; /* Ensure the image spans the width of the footer */
-  height: auto;
-  max-height: 300px; /* Adjust height based on your banner size */
+.footer-content {
+  position: relative;
+  z-index: 1;
 }
 
 .footer-tagline {
   font-size: 1.2rem;
-  color: #471dbf; /* Deep Blue for the tagline */
-  margin-top: auto;
-  padding-bottom: 10px; /* Adds padding at the bottom */
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center; /* Centers the tagline */
+  color: #ecdcec; /* Light Lavender for the tagline */
+  margin-top: 10px;
 }
+
+
 
 
 
