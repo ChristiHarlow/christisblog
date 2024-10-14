@@ -10,6 +10,8 @@
 .footer-banner-container {
   width: 100%;
   height: auto;
+  padding: 0;
+  margin: 0;
 }
 
 .footer-banner {
