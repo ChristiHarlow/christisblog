@@ -26,7 +26,7 @@
   left: 50%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Offset to truly center */
   font-size: 1.5rem;
-  color: #ecdcec; /* Light Lavender text */
+  color: #471dbf; /* Dark Purple from the navbar hover */
   margin: 0;
   padding: 0;
   font-weight: bold;
