@@ -9,6 +9,7 @@
 .header-banner-container {
   width: 100%;
   height: auto;
+  padding: 5px; /* Reduce the padding to make the border smaller */
 }
 
 .header-banner {
