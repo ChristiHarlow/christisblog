@@ -11,7 +11,7 @@ const blogPosts = [
   {
     id: 2,
     title: 'Touched by Racism and Discrimination',
-    content: 'In 2018, I faced an experience that changed my perspective...',
+    content: 'I've faced an experience that changed my perspective...',
     category: 'Racism & Discrimination'
   },
   {
