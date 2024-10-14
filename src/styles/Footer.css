@@ -1,8 +1,13 @@
 .footer {
-  background-color: #471dbf; /* Optional: You can still set a background color if needed */
+  background-color: #471dbf; /* Deep Blue background */
   padding: 20px;
-  text-align: center;
-  border-top: 2px solid #dd6fde; /* Optional: Add a border for contrast */
+  display: flex;
+  flex-direction: column; /* Ensures content stacks vertically */
+  justify-content: space-between; /* Space between the image and tagline */
+  align-items: center; /* Centers content horizontally */
+  border-top: 2px solid #dd6fde; /* Optional: Vibrant Pink border for contrast */
+  min-height: 300px; /* Adjust based on your banner size */
+  position: relative;
 }
 
 .footer-art-container {
@@ -13,14 +18,20 @@
 .footer-art {
   width: 100%; /* Ensure the image spans the width of the footer */
   height: auto;
-  max-height: 300px; /* Adjust this height based on your banner size */
+  max-height: 300px; /* Adjust height based on your banner size */
 }
 
 .footer-tagline {
   font-size: 1.2rem;
   color: #ecdcec; /* Light Lavender for the text */
-  margin-top: 10px;
+  margin-top: auto; /* Pushes the tagline to the bottom */
+  padding-bottom: 10px; /* Adds a little padding at the bottom */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center; /* Centers the tagline */
 }
+
 
 
 
