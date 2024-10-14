@@ -32,7 +32,8 @@ function Contact() {
 
   return (
     <div className="contact-container">
-      <h1>Contact Me</h1>
+      <h2 className="contact-title">Contact Me</h2>
+      <p className="contact-info">Feel free to reach out through the form below!</p>
       <form onSubmit={handleSubmit} className="contact-form">
         <div className="form-group">
           <label htmlFor="name">Name</label>
@@ -42,6 +43,7 @@ function Contact() {
             name="name"
             value={formData.name}
             onChange={handleChange}
+            placeholder="Your Name"
             required
           />
         </div>
@@ -54,6 +56,7 @@ function Contact() {
             name="email"
             value={formData.email}
             onChange={handleChange}
+            placeholder="Your Email"
             required
           />
         </div>
@@ -65,6 +68,8 @@ function Contact() {
             name="message"
             value={formData.message}
             onChange={handleChange}
+            placeholder="Your Message"
+            rows="5"
             required
           />
         </div>

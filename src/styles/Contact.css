@@ -1,34 +1,53 @@
 .contact-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fdf5e6; /* Eggshell background */
-    border-radius: 8px;
-  }
-  
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
-  }
-  
-  input,
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  button {
-    padding: 10px;
-    background-color: #ffcc00; /* Mustard yellow */
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  justify-content: center; /* Center the content vertically */
+  padding: 20px;
+  text-align: center; /* Ensure the text is centered */
+}
+
+.contact-title {
+  font-size: 2rem;
+  color: #471dbf; /* Deep Blue for the title */
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  font-size: 1.2rem;
+  color: #333; /* Dark color for text readability */
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 500px; /* Limit the form width */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the form fields */
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #dd6fde; /* Vibrant Pink for the Send Message button */
+  color: #fff; /* White text for contrast */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #471dbf; /* Deep Blue on hover */
+}
