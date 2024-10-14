@@ -5,7 +5,8 @@
   align-items: flex-start;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 900px; /* For better layout control */
+  max-width: 100%; /* Set to 100% width for flexibility */
+  width: 90%; /* Added width control to allow margins on either side */
   background-color: #ecdcec; /* Light Lavender background */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */

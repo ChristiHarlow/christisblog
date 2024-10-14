@@ -8,6 +8,7 @@
   pointer-events: none;
 }
 
+/* Optional Animation for Logo */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -23,6 +24,7 @@
   }
 }
 
+/* Font Face for Garet */
 @font-face {
   font-family: 'Garet';
   src: url('/fonts/Garet-Regular.woff2') format('woff2'),
@@ -37,4 +39,32 @@
        url('/fonts/Garet-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
+}
+
+/* Media Queries for Responsive Layout */
+@media (max-width: 600px) {
+  .App {
+    padding: 10px;
+  }
+
+  body {
+    font-family: 'Garet', sans-serif;
+  }
+  
+  .header, .footer {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.8rem; /* Adjusted for mobile */
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
 }
