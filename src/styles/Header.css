@@ -1,25 +1,27 @@
 .header {
   background-color: #522c7f; /* Dark Pink background */
-  padding: 0; /* Remove padding to allow the art to fill the entire header */
+  padding: 40px 20px; /* Increase padding on top and bottom for more space */
   text-align: center;
-  height: 150px; /* Set consistent height for the header */
-  border: none; /* Remove the border */
+  border-bottom: 2px solid #dd6fde; /* Vibrant Pink border */
+  height: auto; /* Remove fixed height to allow for dynamic sizing */
 }
 
 .header-banner-container {
   width: 100%;
-  height: 100%; /* Ensure the container fills the entire header */
+  height: auto;
 }
 
 .header-banner {
   width: 100%;
-  height: 100%; /* Ensure the art fills the entire header */
-  object-fit: cover; /* Make sure the image scales correctly */
+  height: auto;
 }
 
 .header-title {
-  display: none; /* Optionally hide the title if the art will replace it */
+  font-size: 2.5rem;
+  color: #ecdcec; /* Light Lavender for the title */
+  margin: 20px 0; /* Additional margin to create space around the title */
 }
+
 
 
 

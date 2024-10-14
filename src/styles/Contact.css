@@ -1,75 +1,31 @@
 .contact-container {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center the content horizontally */
+  align-items: center;
   justify-content: center;
-  padding: 40px;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 600px; /* Set a max-width to control the form size */
-  background-color: #ffffff; /* White background for card effect */
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  height: 100vh; /* Vertically center the content */
+  text-align: center;
 }
 
 .contact-title {
   font-size: 2rem;
-  color: #471dbf; /* Deep Blue for the title */
-  text-align: center;
+  color: #471dbf; /* Deep Blue color */
   margin-bottom: 20px;
 }
 
-.contact-info {
-  font-size: 1.2rem;
-  color: #333;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.form-group {
-  margin-bottom: 15px;
-}
-
-label {
-  font-size: 1rem;
-  color: #333;
-  margin-bottom: 5px;
-}
-
-input,
-textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  font-size: 1rem;
-  box-sizing: border-box;
-}
-
-textarea {
-  resize: none;
-  height: 120px; /* Set height for the textarea */
-}
-
-button {
-  background-color: #dd6fde; /* Vibrant Pink for the Send Message button */
-  color: #fff;
+.contact-link {
+  font-size: 1.5rem;
+  color: #471dbf; /* Deep Blue color for the link */
+  text-decoration: none;
   padding: 10px 20px;
-  border: none;
+  border: 2px solid #471dbf;
   border-radius: 5px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-button:hover {
-  background-color: #471dbf; /* Deep Blue on hover */
+.contact-link:hover {
+  background-color: #dd6fde; /* Vibrant Pink on hover */
+  color: #fff; /* White text on hover */
 }
+
 
