@@ -1,20 +1,18 @@
-/* App-wide styles (global) */
+/* Global styles */
+body {
+  font-family: 'Geologica', sans-serif; /* Apply the Geologica font globally */
+  color: #333; /* Global text color */
+  background-color: #ffffff; /* Global background color */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-/* Optional Animation for Logo */
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/* Remove the logo and its animation if it's not needed */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -24,38 +22,11 @@
   }
 }
 
-/* Font Face for Garet */
-@font-face {
-  font-family: 'Garet';
-  src: url('/fonts/Garet-Regular.woff2') format('woff2'),
-       url('/fonts/Garet-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Garet';
-  src: url('/fonts/Garet-Bold.woff2') format('woff2'),
-       url('/fonts/Garet-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-}
-
 /* Media Queries for Responsive Layout */
 @media (max-width: 600px) {
   .App {
     padding: 10px;
   }
-
-  body {
-    font-family: 'Geologica', sans-serif; /* Apply the Geologica font globally */
-    color: #333; /* Global text color */
-    background-color: #ffffff; /* Global background color */
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
   
   .header, .footer {
     padding: 10px;
@@ -74,3 +45,6 @@
     flex-direction: column;
   }
 }
+
+/* Remove the font-face definitions for Garet if you're no longer using them */
+
