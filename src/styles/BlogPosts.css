@@ -1,11 +1,11 @@
 .blog-container {
   padding: 20px;
   display: flex;
-  justify-content: center; /* Centers the container horizontally */
-  align-items: flex-start;  /* Align items to the top */
-  flex-direction: column;   /* Ensure content is stacked vertically */
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
   margin: 0 auto;
-  max-width: 900px;         /* Increased max width for better layout */
+  max-width: 900px; /* For better layout control */
   background-color: #ecdcec; /* Light Lavender background */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
@@ -20,7 +20,9 @@ h2 {
 .blog-container div {
   margin-bottom: 20px;
   padding: 15px;
-  border-bottom: 1px solid #8c99ec; /* Soft Blue border for divs */
+  border-bottom: 1px solid #8c99ec; /* Soft Blue for div borders */
+  background-color: #ffffff; /* White background for each blog post */
+  border-radius: 5px; /* Softer corners for blog posts */
 }
 
 h3 {
@@ -29,6 +31,17 @@ h3 {
   margin-bottom: 10px;
 }
 
+p {
+  font-size: 1.2rem;
+  color: #333; /* Dark text for readability */
+}
+
 a {
   color: #54ddcd; /* Turquoise for links */
-  text
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover for links */
+}
+

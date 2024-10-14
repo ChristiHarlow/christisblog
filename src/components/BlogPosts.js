@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/BlogPosts.css'; // Ensure the path to the CSS is correct
 
 // Define blogPosts array
 const blogPosts = [
