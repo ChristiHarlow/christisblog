@@ -1,31 +1,75 @@
-.footer {
-  background-color: #522c7f; /* Dark Pink background */
-  padding: 20px;
-  text-align: center;
-  border-top: 2px solid #dd6fde; /* Vibrant Pink border */
-  height: 150px; /* Set consistent height like the header */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  justify-content: center;
+  padding: 40px;
+  margin: 0 auto;
   width: 100%;
+  max-width: 600px; /* Set a max-width to control the form size */
+  background-color: #ffffff; /* White background for card effect */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.contact-title {
+  font-size: 2rem;
+  color: #471dbf; /* Deep Blue for the title */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
   box-sizing: border-box;
 }
 
-.footer-content {
-  width: 100%;
-  height: auto;
+textarea {
+  resize: none;
+  height: 120px; /* Set height for the textarea */
 }
 
-.footer-art-container {
-  max-width: 200px; /* Control the size of the footer art */
-  margin: 0 auto; /* Center the art */
-}
-
-.footer-art {
-  width: 100%;
-  height: auto;
-  max-height: 100px; /* Adjust based on the size you want for the art */
-}
-
-.footer-tagline {
+button {
+  background-color: #dd6fde; /* Vibrant Pink for the Send Message button */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
   font-size: 1.2rem;
-  color: #ecdcec;
-  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
+button:hover {
+  background-color: #471dbf; /* Deep Blue on hover */
+}
+
