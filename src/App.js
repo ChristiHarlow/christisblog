@@ -1,10 +1,13 @@
 import React from 'react';
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import About from './components/About'; // Ensure this is imported
-import Contact from './components/Contact'; // Ensure this is imported
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import About from './components/About';
+import Contact from './components/Contact';
+// Import the missing components
+import Adversity from './components/Adversity'; // Make sure this file exists
+import Blogs from './components/Blogs'; // Make sure this file exists
 
 function App() {
   return (
@@ -12,18 +15,12 @@ function App() {
       <Header />
       <Navbar />
       <Routes>
-  <Route path="/about" element={<About />} />
-  <Route path="/posts/adversity" element={<Adversity />} />
-  <Route path="/blogs" element={<Blogs />} />
-  <Route path="/contact" element={<Contact />} />
-</Routes>
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/posts/adversity" element={<Adversity />} /> {/* Adversity Route */}
+        <Route path="/blogs" element={<Blogs />} /> {/* Blogs Route */}
+      </Routes
 
-      <Footer />
-    </Router>
-  );
-}
-
-export default App;
 
 
 
