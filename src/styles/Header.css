@@ -1,8 +1,9 @@
 .header {
   background-color: #522c7f; /* Dark Pink background */
-  padding: 20px;
+  padding: 20px; /* Same padding as the footer */
   text-align: center;
   border-bottom: 2px solid #dd6fde; /* Vibrant Pink border */
+  height: 150px; /* Set consistent height */
 }
 
 .header-banner-container {
@@ -13,7 +14,7 @@
 .header-banner {
   width: 100%;
   height: auto;
-  max-height: 300px; /* Adjust based on your banner size */
+  max-height: 100px; /* Adjust based on your banner size */
 }
 
 .header-title {
@@ -21,6 +22,7 @@
   color: #ecdcec; /* Light Lavender for the title */
   margin: 10px 0;
 }
+
 
 
   

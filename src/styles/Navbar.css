@@ -1,62 +1,67 @@
 .navbar {
-    background-color: #dd6fde; /* Vibrant Pink background */
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    border-bottom: 2px solid #471dbf; /* Deep Blue border */
-  }
-  
-  .nav-link {
-    text-decoration: none;
-    font-size: 1.3rem;
-    color: #ecdcec; /* Light Lavender text */
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  .nav-link:hover {
-    background-color: #dd6fde; /* Vibrant Pink on hover */
-    color: #ffffff; /* White text on hover */
-  }
-  
-  .dropdown {
-    position: relative;
-  }
-  
-  .dropdown-button {
-    background: none;
-    border: none;
-    color: #ecdcec; /* Light Lavender text */
-    font-size: 1.3rem;
-    cursor: pointer;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
-  
-  .dropdown-menu {
-    display: none;
-    position: absolute;
-    background-color: #8c99ec; /* Soft Blue for dropdown */
-    padding: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .dropdown-button:hover + .dropdown-menu,
-  .dropdown-menu:hover {
-    display: block;
-  }
-  
-  .dropdown-item {
-    color: #333;
-    padding: 10px 15px;
-    display: block;
-    text-decoration: none;
-  }
-  
-  .dropdown-item:hover {
-    background-color: #54ddcd; /* Turquoise on hover */
-    color: #ffffff; /* White text on hover */
-  }
-  
+  background-color: #dd6fde; /* Vibrant Pink background */
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border-bottom: 2px solid #471dbf; /* Deep Blue border */
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #ecdcec; /* Light Lavender text */
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #471dbf; /* Deep Blue on hover */
+  color: #ffffff; /* White text on hover */
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-button {
+  background: none;
+  border: none;
+  color: #ecdcec; /* Light Lavender text */
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #8c99ec; /* Soft Blue for dropdown */
+  padding: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-button:hover + .dropdown-menu,
+.dropdown-menu:hover {
+  display: block;
+}
+
+.dropdown-item {
+  color: #333;
+  padding: 10px 15px;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown-item:hover {
+  background-color: #54ddcd; /* Turquoise on hover */
+  color: #ffffff; /* White text on hover */
+}

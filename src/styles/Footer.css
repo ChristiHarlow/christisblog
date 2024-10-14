@@ -1,11 +1,9 @@
 .footer {
   background-color: #522c7f; /* Dark Pink background */
-  padding: 20px;
+  padding: 20px; /* Same padding as the header */
   text-align: center;
-  border-top: 2px solid #dd6fde; /* Vibrant Pink border for contrast */
-  width: auto; /* Remove the 100vw setting and make it auto */
-  margin: 0 auto; /* Center the footer */
-  position: relative;
+  border-top: 2px solid #dd6fde; /* Vibrant Pink border */
+  height: 150px; /* Set consistent height */
 }
 
 .footer-content {
