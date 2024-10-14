@@ -3,9 +3,16 @@
   padding: 10px;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10px; /* Reduced gap between navbar items */
   border-bottom: 2px solid #471dbf; /* Deep Blue border */
-  width: 100%; /* Full width */
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  gap: 10px; /* Reduced gap between each list item */
+  margin: 0;
+  padding: 0;
 }
 
 .nav-link {
@@ -22,4 +29,124 @@
   color: #ffffff;
 }
 
+.dropdown {
+  position: relative;
+}
+
+.dropdown-button {
+  background: none;
+  border: none;
+  color: #ecdcec; /* Same as nav-link color */
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: #471dbf; /* Deep Blue for dropdown */
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-item {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #dd6fde; /* Vibrant Pink on hover */
+}
+Key Elements:
+Dropdown: The dropdown-button and dropdown-menu remain as before.
+Nav Links: Standard navigation links like "About," "Posts," "Blogs," and "Contact" are restored with the same hover effects and styling.
+This should bring the navbar back to the way it was. Let me know if further changes are needed!
+
+
+
+
+
+
+
+You said:
+Can there be less space between About Posts Blogs and Contact?
+ChatGPT said:
+ChatGPT
+Memory updated
+To reduce the space between the About, Posts, Blogs, and Contact links in the navbar, you can adjust the gap or margins between the list items. Here's how to update the CSS for the navbar:
+
+Updated Navbar CSS (With Less Space Between Links):
+css
+Copy code
+.navbar {
+  background-color: #dd6fde; /* Vibrant Pink background */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Reduced gap between navbar items */
+  border-bottom: 2px solid #471dbf; /* Deep Blue border */
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  gap: 10px; /* Reduced gap between each list item */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #ecdcec; /* Light Lavender text */
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #471dbf; /* Deep Blue on hover */
+  color: #ffffff;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-button {
+  background: none;
+  border: none;
+  color: #ecdcec; /* Same as nav-link color */
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: #471dbf; /* Deep Blue for dropdown */
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-item {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #dd6fde; /* Vibrant Pink on hover */
+}
 
