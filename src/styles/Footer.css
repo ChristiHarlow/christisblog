@@ -1,23 +1,29 @@
 .footer {
   background-color: #522c7f; /* Dark Pink background */
-  padding: 20px;
+  padding: 20px 0; /* Same padding as the header */
   text-align: center;
   border-top: 2px solid #dd6fde; /* Vibrant Pink border */
-  width: 100%;
+  width: 100%; /* Ensure it spans the full width of the page */
   box-sizing: border-box;
 }
 
-.footer-content {
+.footer-banner-container {
   width: 100%;
   height: auto;
 }
 
-.footer-tagline {
-  font-size: 1.2rem;
-  color: #ecdcec;
-  margin-top: 10px;
+.footer-banner {
+  width: 100%;
+  height: auto;
+  max-height: 100px; /* Adjust the height based on your design */
+  object-fit: cover; /* Ensure the banner fits the container */
 }
 
+.footer-tagline {
+  font-size: 1.2rem;
+  color: #ecdcec; /* Light Lavender for the tagline */
+  margin-top: 10px;
+}
 
 
 
