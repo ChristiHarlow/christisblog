@@ -48,8 +48,14 @@
   }
 
   body {
-    font-family: 'Garet', sans-serif;
+    font-family: 'Geologica', sans-serif; /* Apply the Geologica font globally */
+    color: #333; /* Global text color */
+    background-color: #ffffff; /* Global background color */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
+  
   
   .header, .footer {
     padding: 10px;
