@@ -1,18 +1,16 @@
 import React from 'react';
-import '../styles/Footer.css'; // Ensure correct path to CSS
+import '../styles/Footer.css'; // Ensure the path is correct
 
 function Footer() {
   return (
     <footer className="footer">
-      <div className="footer-content">
-        <p className="footer-tagline">Healing and Growth Through Life's Challenges</p>
-        <div className="footer-art-container">
-          <img src="/images/" alt="Blog Art" className="footer-art" />
-        </div>
-        <p>© 2024 Christi's Blog. All Rights Reserved.</p>
+      <div className="footer-art-container">
+        <img src="/images/canva-footer.png" alt="Footer Banner" className="footer-art" />
       </div>
+      <p className="footer-tagline">© 2024 Christi's Blog</p>
     </footer>
   );
 }
 
 export default Footer;
+

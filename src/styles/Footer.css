@@ -1,41 +1,27 @@
 .footer {
-  background-color: #471dbf; /* Deep Blue background */
+  background-color: #471dbf; /* Optional: You can still set a background color if needed */
   padding: 20px;
   text-align: center;
-  border-top: 2px solid #dd6fde; /* Vibrant Pink for contrast */
-}
-
-.footer-content {
-  position: relative;
-  z-index: 1;
-}
-
-.footer-tagline {
-  color: #ecdcec; /* Light Lavender for text */
-  font-size: 1.2rem;
-  margin: 10px 0;
+  border-top: 2px solid #dd6fde; /* Optional: Add a border for contrast */
 }
 
 .footer-art-container {
-  max-width: 200px;
-  margin: 0 auto;
+  width: 100%;
+  height: auto;
 }
 
 .footer-art {
-  width: 100%;
+  width: 100%; /* Ensure the image spans the width of the footer */
+  height: auto;
+  max-height: 300px; /* Adjust this height based on your banner size */
+}
+
+.footer-tagline {
+  font-size: 1.2rem;
+  color: #ecdcec; /* Light Lavender for the text */
   margin-top: 10px;
 }
 
-/* Additional Hover Effects for Links or Buttons */
-.footer a {
-  color: #54ddcd; /* Turquoise for links */
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.footer a:hover {
-  color: #8c99ec; /* Soft Blue on hover */
-}
 
 
 
