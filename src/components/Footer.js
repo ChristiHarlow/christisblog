@@ -6,8 +6,8 @@ function Footer() {
     <footer className="footer">
       <div className="footer-banner-container">
         <img src="/images/footer-banner.png" alt="Footer Banner" className="footer-banner" />
+        <p className="footer-tagline">© 2024 Christi's Blog</p>
       </div>
-      <p className="footer-tagline">© 2024 Christi's Blog</p>
     </footer>
   );
 }
