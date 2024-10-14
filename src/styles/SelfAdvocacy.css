@@ -1,0 +1,32 @@
+.self-advocacy-container {
+    background-color: #f0f8ff; /* AliceBlue background */
+    color: #2c3e50; /* Darker text color */
+    padding: 60px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Darker shadow for emphasis */
+  }
+  
+  .self-advocacy-title {
+    font-size: 2.5rem;
+    color: #27ae60; /* Green for empowerment and growth */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .self-advocacy-subtitle {
+    font-size: 2rem;
+    color: #2980b9; /* Bright Blue for clarity and justice */
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .self-advocacy-content {
+    font-size: 1.2rem;
+    color: #34495e; /* Darker text color for readability */
+    line-height: 1.6;
+    text-align: justify;
+  }
+  

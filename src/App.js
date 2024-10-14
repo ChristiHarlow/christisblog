@@ -18,6 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/posts/adversity" element={<Adversity />} /> {/* Adversity Route */}
+        <Route path="/posts/self-advocacy" element={<SelfAdvocacy />} /> {/* Self-Advocacy Route */}
         <Route path="/blogs" element={<BlogPosts />} /> {/* Blogs Route */}
       </Routes>
       <Footer />

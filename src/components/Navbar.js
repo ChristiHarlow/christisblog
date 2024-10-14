@@ -13,6 +13,7 @@ function Navbar() {
           <button className="nav-link dropdown-button">Posts</button>
           <div className="dropdown-menu">
             <Link to="/posts/adversity" className="dropdown-item">Adversity</Link>
+            <Link to="/posts/self-advocacy" className="dropdown-item">Self-Advocacy</Link>
             {/* Add more blog post links here as needed */}
           </div>
         </li>
