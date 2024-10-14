@@ -1,13 +1,14 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import About from './components/About';
+import Adversity from './components/Adversity'; // Make sure this file exists
+import BlogPosts from './components/BlogPosts'; // Make sure this file exists
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
-// Import the missing components
-import Adversity from './components/Adversity'; // Make sure this file exists
-import BlogPosts from './components/BlogPosts'; // Make sure this file exists
+
 function App() {
   return (
     <Router>
