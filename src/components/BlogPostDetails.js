@@ -1,3 +1,4 @@
+import { buildQueries } from '@testing-library/react';
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -5,21 +6,15 @@ const blogPosts = [
   {
     id: 1,
     title: 'Healing and Growth Through Adversity',
-    content: 'This post explores how my experiences have led to personal growth and healing...',
+    content: 'Adversity often manifests in various forms, and recognizing it is the first step toward addressing its impact. ...',
     category: 'Personal Growth'
   },
   {
     id: 2,
     title: 'Touched by Racism and Discrimination',
-    content: 'I've faced an experience that changed my perspective...',
+    content: 'Self-Advocacy is about standing up even when the odds are against you...',
     category: 'Racism & Discrimination'
-  },
-  {
-    id: 3,
-    title: 'New Beginnings',
-    content: 'After years of working in different fields, I decided to make a career change...',
-    category: 'Other Life Experiences'
-  }
+  },Queries
 ];
 
 function BlogPostDetails() {

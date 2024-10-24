@@ -11,16 +11,11 @@ const blogPosts = [
   },
   {
     id: 2,
-    title: 'Touched by Racism and Discrimination',
-    content: 'In 2018, I faced an experience that changed my perspective...',
+    title: 'The Cost of Self-Advocacy: My Fight for Justice',
+    content: 'Black women who assert themselves are seen as difficult, combative, or insubordinate....',
     category: 'Racism & Discrimination'
   },
-  {
-    id: 3,
-    title: 'New Beginnings',
-    content: 'After years of working in different fields, I decided to make a career change...',
-    category: 'Other Life Experiences'
-  }
+  
 ];
 
 function BlogPosts() {

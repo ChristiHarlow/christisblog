@@ -30,6 +30,12 @@ function SelfAdvocacy() {
         I feel this truth even more deeply. Historically, Black women have not been protected in the workplace, 
         and my fight for justice feels like a continuation of that painful history. But I refuse to be silenced.
       </p>
+      <h2 className="self-advocacy-subtitle">The Labels Black Women Face When They Speak Up</h2>
+      <p className="self-advocacy-content">
+      One of the most painful realities I've encountered on this journey is the way Black women are often labeled when they choose to speak up and advocate for themselves. Historically, Black women who assert themselves are seen as difficult, combative, or insubordinate. Instead of being recognized for their strength and resilience, they are unjustly labeled as "angry" or "toxic." When I stood up for myself, I was labeled as "toxic"—a term used to undermine my character and dismiss my valid concerns. This labeling is a deliberate attempt to silence Black women, making it harder for us to seek justice and support in spaces that are already hostile.
+
+      These labels do more than just hurt feelings; they affect our professional and personal lives. They create an environment where Black women are discouraged from advocating for themselves, knowing that their concerns might be met with resistance or outright dismissal. But I refuse to let these labels define me. Being called "toxic" for standing up against discrimination and harassment did not deter me; it strengthened my resolve. My voice will not be silenced by the stereotypes and biases that seek to minimize my experiences.
+      </p>
       <h2 className="self-advocacy-subtitle">The Fight Continues</h2>
       <p className="self-advocacy-content">
         This journey isn’t over for me. My case continues, and so does my fight for justice. I will keep advocating 
