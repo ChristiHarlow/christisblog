@@ -1,4 +1,3 @@
-import { buildQueries } from '@testing-library/react';
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
@@ -11,7 +10,7 @@ const blogPosts = [
   },
   {
     id: 2,
-    title: 'Touched by Racism and Discrimination',
+    title: 'The Cost of Self-Advocacy: My Fight for Justice',
     content: 'Self-Advocacy is about standing up even when the odds are against you...',
     category: 'Racism & Discrimination'
   },Queries
