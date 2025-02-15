@@ -1,11 +1,12 @@
 import React from 'react';
-import '../styles/Header.css'; // Ensure the path to your CSS is correct
+import '../styles/Header.css';
 
 function Header() {
   return (
     <header className="header">
       <div className="header-banner-container">
-        <h1 className="header-banner"></h1>
+        <img src={process.env.PUBLIC_URL + '/images/image.png'} alt="Header Banner" className="header-banner" /> {/* Add the image */}
+        <h1 className="blog-title"></h1>
       </div>
     </header>
   );
