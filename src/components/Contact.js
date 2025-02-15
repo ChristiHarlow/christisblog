@@ -12,9 +12,10 @@ function Contact() {
   };
 
   const images = [
-      {src: "/images/image1.png", alt: "Image 1"},
-      {src: "/images/image2.png", alt: "Image 2"},
-      {src: "/images/image3.png", alt: "Image 3"},
+      {src: "/images/michelle.png", alt: "Michelle Obama"},
+      {src: "/images/rosa.png", alt: "Rosa Parks"},
+      {src: "/images/harriet.png", alt: "Harriet Tubman"},
+      {src: "/images/malcolm.png", alt: "Malcolm X"},
       //... more images
   ];
 
