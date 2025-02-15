@@ -1,25 +1,25 @@
-.header {
-  padding: 0; /* Remove padding to allow the banner to fill the entire header */
+/* Header Styles */.header {
+  padding: 0;
   text-align: center;
-  height: 150px; /* Set consistent height for the header */
-  border: none; /* Remove any border */
+  height: 150px;
+  border: none;
   width: 100%;
   box-sizing: border-box;
-}
-
-.header-banner-container {
+}.header-banner-container {
   width: 100%;
   height: 100%;
   padding: 0;
   margin: 0;
+}.header-banner { 
+  display: none; 
+}.blog-title {
+  font-family: 'Arial', sans-serif;
+  font-size: 3rem; 
+  color: var(--near-black); 
+  margin: 0;
+  line-height: 150px; 
 }
 
-.header-banner {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensures the image fills the container without distortion */
-  border: none; /* Remove any borders */
-}
 
 
 

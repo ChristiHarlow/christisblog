@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="header">
       <div className="header-banner-container">
-        <img src={process.env.PUBLIC_URL + '/images/header-banner.png'} alt="Banner" className="header-banner" />
+        <h1 className="header-banner">Christi's Blog</h1>
       </div>
     </header>
   );
