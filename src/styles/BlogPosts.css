@@ -1,3 +1,11 @@
+/* Color Palette 1: Classic Monochrome with a Touch of Gray */
+:root {
+  --black: #000000;
+  --dark-gray: #333333;
+  --white: #FFFFFF;
+  --light-gray: #EEEEEE;
+}
+
 .blog-container {
   padding: 20px;
   display: flex;
@@ -5,44 +13,44 @@
   align-items: flex-start;
   flex-direction: column;
   margin: 0 auto;
-  max-width: 100%; /* Set to 100% width for flexibility */
-  width: 90%; /* Added width control to allow margins on either side */
-  background-color: #ecdcec; /* Light Lavender background */
+  max-width: 100%;
+  width: 90%;
+  background-color: var(--light-gray); /* Light Gray background */
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-  color: #471dbf; /* Deep Blue for main headings */
-  text-align: center; /* Center the main heading */
+  color: var(--black); /* Black for main headings */
+  text-align: center;
   margin-bottom: 20px;
 }
 
 .blog-container div {
   margin-bottom: 20px;
   padding: 15px;
-  border-bottom: 1px solid #8c99ec; /* Soft Blue for div borders */
-  background-color: #ffffff; /* White background for each blog post */
-  border-radius: 5px; /* Softer corners for blog posts */
+  border-bottom: 1px solid var(--light-gray); /* Light Gray for div borders */
+  background-color: var(--white); /* White background for each blog post */
+  border-radius: 5px;
 }
 
 h3 {
   font-size: 1.5rem;
-  color: #dd6fde; /* Vibrant Pink for subheadings */
+  color: var(--dark-gray); /* Dark Gray for subheadings */
   margin-bottom: 10px;
 }
 
 p {
   font-size: 1.2rem;
-  color: #333; /* Dark text for readability */
+  color: var(--dark-gray); /* Dark Gray text */
 }
 
 a {
-  color: #54ddcd; /* Turquoise for links */
+  color: #54ddcd; /* Turquoise for links (unchanged) */
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline; /* Underline on hover for links */
+  text-decoration: underline;
 }
 
