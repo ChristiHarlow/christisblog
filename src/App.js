@@ -14,8 +14,8 @@ function App() {
   return (
     <Router>
       <Header />
-      <Navbar />
       <Gallery />
+      <Navbar />
       <Routes>
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
