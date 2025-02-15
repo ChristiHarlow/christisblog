@@ -1,32 +1,46 @@
-.self-advocacy-container {
-    background-color: #f0f8ff; /* AliceBlue background */
-    color: #2c3e50; /* Darker text color */
-    padding: 60px;
-    margin: 20px auto;
-    width: 90%;
-    max-width: 1200px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Darker shadow for emphasis */
-  }
-  
-  .self-advocacy-title {
-    font-size: 2.5rem;
-    color: #27ae60; /* Green for empowerment and growth */
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .self-advocacy-subtitle {
-    font-size: 2rem;
-    color: #2980b9; /* Bright Blue for clarity and justice */
-    margin-top: 30px;
-    margin-bottom: 15px;
-  }
-  
-  .self-advocacy-content {
-    font-size: 1.2rem;
-    color: #34495e; /* Darker text color for readability */
-    line-height: 1.6;
-    text-align: justify;
-  }
+/* Color Palette: Emphasis on Dark Gray */:root {
+  --near-black: #1A1A1A;
+  --dark-gray: #333333;
+  --medium-gray: #666666;
+  --light-gray: #EEEEEE;
+  --white: #FFFFFF;
+}.self-advocacy-container {
+  background-color: var(--light-gray); /* Light Gray background */
+  color: var(--dark-gray); /* Dark Gray text */
+  padding: 60px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Darker shadow for emphasis */
+}.self-advocacy-title {
+  font-size: 2.5rem;
+  color: var(--near-black); /* Near-Black title */
+  text-align: center;
+  margin-bottom: 20px;
+}.self-advocacy-subtitle {
+  font-size: 2rem;
+  color: var(--medium-gray); /* Medium Gray subtitles */
+  margin-top: 30px;
+  margin-bottom: 15px;
+}.self-advocacy-content {
+  font-size: 1.2rem;
+  color: var(--dark-gray); /* Dark Gray content text */
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Optional styling for lists if you use them */.self-advocacy-content ol,.self-advocacy-content ul {
+  margin: 20px 0;
+  padding-left: 20px;
+}.self-advocacy-content li {
+  margin-bottom: 10px;
+}
+
+/* Link Styling (Optional - you can customize these) */.self-advocacy-content a {
+  color: #007bff; /* Example: A standard blue link color */
+  text-decoration: none;
+}.self-advocacy-content a:hover {
+  text-decoration: underline;
+}
   
