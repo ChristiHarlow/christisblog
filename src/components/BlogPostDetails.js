@@ -28,7 +28,7 @@ content: 'Self-Advocacy is about standing up even when the odds are against you.
 
 category: 'Racism & Discrimination'
 
-},Queries
+},
 
 ];
 
