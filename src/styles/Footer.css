@@ -1,8 +1,8 @@
 .footer {
-  background-color: #522c7f; /* Dark Pink background */
+  background-color: #000000; /* Dark Pink background */
   padding: 0; /* Remove extra padding since we're placing the tagline on the banner */
   text-align: center;
-  border-top: 2px solid #dd6fde; /* Vibrant Pink border */
+  border-top: 2px solid #000000; /* Vibrant Pink border */
   width: 100%;
   box-sizing: border-box;
 }
