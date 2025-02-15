@@ -10,9 +10,12 @@
   height: 100%;
   padding: 0;
   margin: 0;
-}.header-banner { 
+}
+
+/* Remove or comment out.header-banner since it's not being used */
+/*.header-banner { 
   display: none; 
-}.blog-title {
+} */.blog-title {
   font-family: 'Arial', sans-serif;
   font-size: 3rem; 
   color: var(--near-black); 
