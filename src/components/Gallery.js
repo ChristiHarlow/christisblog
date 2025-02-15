@@ -12,11 +12,11 @@ function Gallery() {
   // Replace with your actual image paths and alt text
   const images = [
 
-    { src: '/images/rosa.png', alt: 'Rosa Parks' },
-    { src: '/images/malcolm.png', alt: 'Malcolm X' },
-    {src: '/images/harriet.png', alt: 'Harriet Tubman' },
-    {src: '/images/michelle.png', alt: 'Michelle Obama' },
-    {src: '/images/shirley.png', alt: 'Shirley Chisholm' },
+    { src: '/images/png', alt: '' },
+    { src: '/images/png', alt: '' },
+    {src: '/images/png', alt: '' },
+    {src: '/images/png', alt: '' },
+    {src: '/images/png', alt: '' },
     
     //... more images
   ];
