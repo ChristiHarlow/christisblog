@@ -1,7 +1,9 @@
+// App.js
 import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import About from "./components/About";
 import Adversity from "./components/Adversity";
+import BlogPosts from "./components/BlogPosts";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -16,11 +18,9 @@ function App() {
       <Routes>
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/posts/adversity" element={<Adversity />} />
-        <Route
-          path="/posts/self-advocacy"
-          element={<SelfAdvocacy />}
-        />
+        <Route path="/posts/adversity" element={<Adversity />} /> {/* Adversity Route */}
+        <Route path="/posts/self-advocacy" element={<SelfAdvocacy />} /> {/* Self-Advocacy Route */}
+        <Route path="/blogs" element={<BlogPosts />} /> {/* Blogs Route */}
       </Routes>
       <Footer />
     </Router>
