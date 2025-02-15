@@ -19,6 +19,9 @@
   gap: 10px;
   margin: 0;
   padding: 0;
+}.nav-link.active {  /* Style the active link */
+  background-color: var(--medium-gray); /* Or your preferred color */
+  color: var(--white);
 }.nav-link,.dropdown-button {
   text-decoration: none;
   font-size: 1rem;
