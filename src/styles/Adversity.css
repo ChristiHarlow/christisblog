@@ -1,35 +1,43 @@
+/* Color Palette 3: Emphasis on Light Gray */
+:root {
+  --near-black: #111111;
+  --light-gray: #AAAAAA;
+  --very-light-gray: #DDDDDD;
+  --white: #FFFFFF;
+}
+
 .adversity-container {
-  background-color: #ecdcec; /* Light Lavender background to match your palette */
-  color: #333; /* Dark gray for readability */
+  background-color: var(--very-light-gray); /* Very Light Gray background */
+  color: var(--near-black); /* Near-Black text */
   padding: 60px;
   margin: 20px auto;
-  width: 95%; /* Increased width for a larger container */
-  max-width: 1400px; /* Adjusted maximum width */
+  width: 95%;
+  max-width: 1400px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .adversity-title {
   font-size: 2.5rem;
-  color: #471dbf; /* Deep Blue for the title */
+  color: var(--near-black); /* Near-Black title */
   text-align: center;
   margin-bottom: 20px;
-  font-family: 'Georgia', serif; /* Professional, classic font */
+  font-family: 'Georgia', serif;
 }
 
 .adversity-subtitle {
   font-size: 2rem;
-  color: #dd6fde; /* Vibrant Pink for subtitles */
+  color: var(--light-gray); /* Light Gray subtitles */
   margin-top: 30px;
   margin-bottom: 15px;
 }
 
 .adversity-content {
   font-size: 1.2rem;
-  color: #333; /* Keep dark gray for readability */
+  color: var(--near-black); /* Near-Black content text */
   line-height: 1.6;
   text-align: justify;
-  font-family: 'Arial', sans-serif; /* Clean and readable font */
+  font-family: 'Arial', sans-serif;
 }
 
 .adversity-content ol {
@@ -40,4 +48,3 @@
 .adversity-content li {
   margin-bottom: 10px;
 }
-
