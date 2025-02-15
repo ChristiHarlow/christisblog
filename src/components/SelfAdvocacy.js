@@ -38,7 +38,7 @@ function SelfAdvocacy() {
       </p>
       <h2 className="self-advocacy-subtitle">The Fight Continues</h2>
       <p className="self-advocacy-content">
-        This journey isn’t over for me. My case continues, and so does my fight for justice. I will keep advocating 
+        This journey isn’t over for me. My fight for justice continues. I will keep advocating 
         for myself, not because it’s easy, but because it’s necessary. To those reading this, remember: advocating 
         for yourself may come with a cost, but silence will cost you even more.
       </p>
