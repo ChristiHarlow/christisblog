@@ -1,7 +1,7 @@
 /* Header Styles */.header {
   padding: 0;
   text-align: center;
-  height: 150px;
+  height: 150px; /* Adjust the height if needed */
   border: none;
   width: 100%;
   box-sizing: border-box;
@@ -10,17 +10,13 @@
   height: 100%;
   padding: 0;
   margin: 0;
-}
-
-/* Remove or comment out.header-banner since it's not being used */
-/*.header-banner { 
-  display: none; 
-} */.blog-title {
+}.blog-title {
   font-family: 'Arial', sans-serif;
-  font-size: 3rem; 
+  font-size: 4rem;   /* Increased font size */
+  font-weight: bold;  /* Added font weight */
   color: var(--near-black); 
   margin: 0;
-  line-height: 150px; 
+  line-height: 150px; /* Adjust this if you change the header height */
 }
 
 
