@@ -7,7 +7,7 @@ function Contact() {
   return (
     <div className="contact-container">
       <h2 className="contact-title">Contact Me</h2>
-      <a href="mailto:christiharlow@outlook.com" className="contact-link">
+      <a href="mailto:christiaharlow@outlook.com" className="contact-link">
         <FontAwesomeIcon icon={faEnvelope} />
         Email Me
       </a>

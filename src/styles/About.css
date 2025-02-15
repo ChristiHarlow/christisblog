@@ -1,58 +1,75 @@
+/* Color Palette 2: Gradient Gray Scale */
+:root {
+  --black: #000000;
+  --dark-gray: #555555;
+  --medium-gray: #888888;
+  --light-gray: #CCCCCC;
+  --white: #FFFFFF;
+}
+
 /* About Page Styles */
 .about-container {
-  background-color: #ecdcec; /* Light Lavender background to match the blog */
-  color: #333; /* Dark gray for readability */
+  background-color: var(--light-gray); /* Light Gray background */
+  color: var(--dark-gray); /* Dark Gray text */
   padding: 40px;
   margin: 20px auto;
   width: 80%;
-  border-radius: 8px; /* Soft corners for a welcoming look */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about-title {
   font-size: 2.5rem;
-  color: #471dbf; /* Deep Blue for the title */
+  color: var(--black); /* Black title */
   text-align: center;
   margin-bottom: 20px;
-  font-family: 'Georgia', serif; /* Professional, classic font */
+  font-family: 'Georgia', serif;
 }
 
 .about-content {
   font-size: 1.2rem;
-  color: #dd6fde; /* Vibrant Pink for paragraph text */
+  color: var(--medium-gray); /* Medium Gray text */
   line-height: 1.6;
-  font-family: 'Arial', sans-serif; /* Clean, readable font */
+  font-family: 'Arial', sans-serif;
   text-align: justify;
 }
 
 body {
-  background-color: #ecdcec; /* Light Lavender background to match the overall site */
-  color: #333; /* Dark gray for readability */
+  background-color: var(--white); /* White background */
+  color: var(--dark-gray); /* Dark Gray text */
 }
 
 h1, h2, h3 {
-  color: #471dbf; /* Deep Blue for headings */
+  color: var(--black); /* Black headings */
 }
 
 a {
-  color: #54ddcd; /* Turquoise for links */
+  color: #54ddcd; /* Turquoise for links (unchanged) */
 }
 
 button {
-  background-color: #ffcc00; /* Mustard yellow for buttons */
-  color: #fdf5e6; /* Eggshell text for button contrast */
+  background-color: #ffcc00; /* Mustard yellow for buttons (unchanged) */
+  color: #fdf5e6; /* Eggshell text for button contrast (unchanged) */
   padding: 10px 20px;
   border-radius: 5px;
+  border: none; /* Remove default button border */
 }
 
 button:hover {
-  background-color: #dd6fde; /* Vibrant Pink on hover */
+  background-color: #dd6fde; /* Vibrant Pink on hover (unchanged) */
   cursor: pointer;
 }
 
 .footer {
-  background-color: #ecdcec; /* Light Lavender for a clean footer */
-  color: #471dbf; /* Deep Blue for the footer text */
+  background-color: var(--dark-gray); /* Dark Gray footer background */
+  color: var(--white); /* White footer text */
+  padding: 20px 0; /* Add some padding to the footer */
+  text-align: center; /* Center the footer text */
+  width: 100%;
+}
+
+.footer p { /* Style the paragraph within the footer */
+  margin: 0; /* Remove default paragraph margins */
 }
 
 

@@ -1,35 +1,33 @@
+/* Footer.css */
 .footer {
-  background-color: #000000; /* Dark Pink background */
-  padding: 0; /* Remove extra padding since we're placing the tagline on the banner */
+  background-color: #000; /* Black background */
+  padding: 20px 0; /* Adjust padding as needed */
   text-align: center;
-  border-top: 2px solid #000000; /* Vibrant Pink border */
   width: 100%;
   box-sizing: border-box;
 }
 
 .footer-banner-container {
-  position: relative;
+  /* No need for specific styling here unless you want something special */
   width: 100%;
-  height: auto;
-}
-
-.footer-banner {
-  width: 100%;
-  height: auto;
-  max-height: 100px; /* Adjust based on your banner size */
-  object-fit: cover;
 }
 
 .footer-tagline {
-  position: absolute;
-  top: 50%; /* Center vertically */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Offset to truly center */
-  font-size: 1.5rem;
-  color: #471dbf; /* Dark Purple from the navbar hover */
+  font-size: 1.5rem; /* Adjust as needed */
+  color: #fff; /* White text */
   margin: 0;
   padding: 0;
   font-weight: bold;
+}
+
+/* If you want a border (optional) */
+.footer {
+    border-top: 2px solid #fff; /* White border */
+}
+
+/* If you want a specific font (optional) */
+.footer-tagline {
+    font-family: 'Arial', sans-serif; /* Example font */
 }
 
 
