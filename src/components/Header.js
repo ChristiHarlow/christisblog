@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="header">
       <div className="header-banner-container">
-        <h1 className="header-banner">Christi's Blog</h1>
+        <h1 className="header-banner"></h1>
       </div>
     </header>
   );
