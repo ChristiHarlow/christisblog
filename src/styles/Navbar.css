@@ -8,34 +8,34 @@
   background-color: var(--near-black);
   padding: 10px;
   display: flex;
-  justify-content: center; /* Or space-between if you want items on the left and right */
-  align-items: center; /* Vertically center items */
+  justify-content: center;
+  align-items: center;
   gap: 10px;
   border-bottom: 2px solid var(--dark-gray);
-  flex-wrap: wrap; /* Allow items to wrap onto multiple lines if needed */
+  flex-wrap: wrap;
 }.navbar-list {
   list-style-type: none;
   display: flex;
   gap: 10px;
   margin: 0;
   padding: 0;
-}.nav-link,.dropdown-button { /* Apply to both nav links and dropdown button */
+}.nav-link,.dropdown-button {
   text-decoration: none;
-  font-size: 1rem; /* Reduced font size */
+  font-size: 1rem;
   color: var(--light-gray);
-  padding: 8px 12px; /* Slightly reduced padding */
+  padding: 8px 12px;
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;
-  white-space: nowrap; /* Prevent text from wrapping within the link */
+  white-space: nowrap;
+  cursor: pointer; /* Add cursor pointer to the button */
 }.nav-link:hover,.dropdown-button:hover {
   background-color: var(--dark-gray);
   color: var(--white);
 }.dropdown {
   position: relative;
-}
-.dropdown-menu {
+}.dropdown-menu {
   position: absolute;
-  top: 100%; /* Position below the button */
+  top: 100%;
   left: 0;
   background-color: var(--dark-gray);
   border-radius: 5px;
@@ -43,13 +43,21 @@
   display: flex;
   flex-direction: column;
   z-index: 1;
+  opacity: 0; /* Initially hidden */
+  visibility: hidden; /* Initially hidden */
+  transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition */
+  pointer-events: none; /* Prevent interaction when hidden */
+}.dropdown:hover.dropdown-menu { /* Show on hover */
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto; /* Allow interaction when visible */
 }.dropdown-item {
   padding: 5px 10px;
   text-decoration: none;
   color: var(--white);
   border-radius: 5px;
   transition: background-color 0.3s ease;
-  white-space: nowrap; /* Prevent text from wrapping within the dropdown item */
+  white-space: nowrap;
 }.dropdown-item:hover {
   background-color: var(--light-gray);
   color: var(--near-black);
