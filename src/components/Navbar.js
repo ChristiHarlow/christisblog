@@ -7,6 +7,7 @@ function Navbar() {
     <nav className="navbar">
       <ul className="navbar-list">
         <li><Link to="/about" className="nav-link">About</Link></li>
+        <li><Link to="/blogs" className="nav-link">Blogs</Link></li>
 
         <li className="dropdown">
           <button className="nav-link dropdown-button">Posts</button>
@@ -16,8 +17,7 @@ function Navbar() {
             {/* Add more blog post links here as needed */}
           </div>
         </li>
-
-        <li><Link to="/blogs" className="nav-link">Blogs</Link></li> 
+         
         <li><Link to="/contact" className="nav-link">Contact</Link></li>
       </ul>
     </nav>
