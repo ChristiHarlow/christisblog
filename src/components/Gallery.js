@@ -14,9 +14,9 @@ function Gallery() {
 
     { src: '/images/rosa.png', alt: 'Rosa Parks' },
     { src: '/images/malcolm.png', alt: 'Malcolm X' },
-    {src: '/images/shirley.png', alt: 'Shirley Chisolm' },
     {src: '/images/harriet.png', alt: 'Harriet Tubman' },
     {src: '/images/michelle.png', alt: 'Michelle Obama' },
+    {src: '/images/shirley.png', alt: 'Shirley Chisholm' },
     
     //... more images
   ];
