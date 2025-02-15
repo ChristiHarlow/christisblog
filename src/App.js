@@ -21,7 +21,6 @@ function App() {
           path="/posts/self-advocacy"
           element={<SelfAdvocacy />}
         />
-        {/* Remove the /posts and /posts/:slug routes */}
       </Routes>
       <Footer />
     </Router>
