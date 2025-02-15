@@ -5,6 +5,7 @@ import Adversity from "./components/Adversity";
 import BlogPosts from "./components/BlogPosts";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Gallery from "./components/Gallery";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import SelfAdvocacy from "./components/SelfAdvocacy";
