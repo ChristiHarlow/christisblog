@@ -1,4 +1,6 @@
-/* Color Palette: Emphasis on Dark Gray */:root {  /* Removed the extra period */
+/* Navbar.css */
+
+/* Color Palette: Emphasis on Dark Gray */:root {
   --near-black: #1A1A1A;
   --dark-gray: #333333;
   --medium-gray: #666666;
@@ -19,10 +21,10 @@
   gap: 10px;
   margin: 0;
   padding: 0;
-}.nav-link.active {  /* Style the active link */
+}.nav-link.active {
   background-color: var(--medium-gray);
   color: var(--white);
-}.nav-link,.dropdown-button { /* Added general styles for links */
+}.nav-link,.dropdown-button {
   text-decoration: none;
   font-size: 1rem;
   color: var(--light-gray);
