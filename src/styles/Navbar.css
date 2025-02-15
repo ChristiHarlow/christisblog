@@ -19,6 +19,6 @@
   gap: 10px;
   margin: 0;
   padding: 0;
-}.nav-link.active {  /* Style the active link */
+}.nav-link.active  {/* Style the active link */
   background-color: var(--medium-gray);
-  color: var(--white);
+  color: var(--white);}
