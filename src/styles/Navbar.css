@@ -1,69 +1,75 @@
-/* Navbar.css */
-
-/* Color Palette: Emphasis on Dark Gray */:root {
-  --near-black: #1A1A1A;
+/* Color Palette 4: High Contrast with Dark Gray */
+:root {
+  --near-black: #111111;
   --dark-gray: #333333;
-  --medium-gray: #666666;
-  --light-gray: #EEEEEE;
   --white: #FFFFFF;
-}.navbar {
-  background-color: var(--near-black);
+  --light-gray: #EEEEEE;
+}
+
+.navbar {
+  background-color: var(--near-black); /* Near-Black background */
   padding: 10px;
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 10px;
-  border-bottom: 2px solid var(--dark-gray);
-  flex-wrap: wrap;
-}.navbar-list {
+  border-bottom: 2px solid var(--dark-gray); /* Dark Gray border */
+}
+
+.navbar-list {
   list-style-type: none;
   display: flex;
   gap: 10px;
   margin: 0;
   padding: 0;
-}.nav-link.active {
-  background-color: var(--medium-gray);
-  color: var(--white);
-}.nav-link,.dropdown-button {
+}
+
+.nav-link {
   text-decoration: none;
-  font-size: 1rem;
-  color: var(--light-gray);
-  padding: 8px 12px;
+  font-size: 1.3rem;
+  color: var(--light-gray); /* Light Gray text */
+  padding: 10px 15px;
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;
-  white-space: nowrap;
-  cursor: pointer;
-}.nav-link:hover,.dropdown-button:hover {
-  background-color: var(--dark-gray);
-  color: var(--white);
-}.dropdown {
+}
+
+.nav-link:hover {
+  background-color: var(--dark-gray); /* Dark Gray on hover */
+  color: var(--white); /* White text on hover */
+}
+
+.dropdown {
   position: relative;
-}.dropdown-menu {
+}
+
+.dropdown-button {
+  background: none;
+  border: none;
+  color: var(--light-gray); /* Light Gray button text */
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.dropdown-menu {
   position: absolute;
-  top: 100%;
+  top: 40px;
   left: 0;
-  background-color: var(--dark-gray);
+  background-color: var(--dark-gray); /* Dark Gray dropdown */
   border-radius: 5px;
   padding: 10px;
   display: flex;
   flex-direction: column;
-  z-index: 1;
-  opacity: 0;          /* Initially hidden */
-  visibility: hidden;  /* Initially hidden */
-  pointer-events: none; /* Prevent interaction when hidden */
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-}.dropdown:hover.dropdown-menu {
-  opacity: 1;          /* Make it visible on hover */
-  visibility: visible;  /* Make it visible on hover */
-  pointer-events: auto; /* Allow interaction on hover */
-}.dropdown-item {
+  z-index: 1; /* Ensure dropdown is above other content */
+}
+
+.dropdown-item {
   padding: 5px 10px;
   text-decoration: none;
-  color: var(--white);
+  color: var(--white); /* White dropdown text */
   border-radius: 5px;
   transition: background-color 0.3s ease;
-  white-space: nowrap;
-}.dropdown-item:hover {
-  background-color: var(--light-gray);
-  color: var(--near-black);
+}
+
+.dropdown-item:hover {
+  background-color: var(--light-gray); /* Light Gray on hover */
+  color: var(--near-black); /* Near-Black text on hover */
 }
