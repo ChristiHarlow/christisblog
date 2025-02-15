@@ -12,7 +12,9 @@ import SelfAdvocacy from "./components/SelfAdvocacy";
 
 function App() {
   return (
+    
     <Router>
+      <Header />
       <Navbar />
       <Routes>
         <Route path="/about" element={<About />} />
@@ -22,7 +24,6 @@ function App() {
         <Route path="/blogs" element={<BlogPosts />} /> {/* Blogs Route */}
       </Routes>
       <Gallery />
-      <Header />
       <Footer />
     </Router>
   );
