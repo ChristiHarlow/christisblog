@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link
 import '../styles/BlogPosts.css';
-import blogPosts from './blogData'; // Import your blog post data (from blogData.js)
+import blogPosts from './BlogPostDetails'; // Import your blog post data (from blogData.js)
 
 function BlogPosts() {
   const categories = [...new Set(blogPosts.map(post => post.category))];
