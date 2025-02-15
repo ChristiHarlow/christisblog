@@ -16,7 +16,7 @@ import '../styles/Contact.css';
       
     </div>
   );
-}
+
 
 export default Contact;
 

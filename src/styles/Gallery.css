@@ -1,0 +1,19 @@
+/* Gallery.css */.gallery-container {
+  /* Add any container styles you want (e.g., padding, margin) */
+  padding: 20px; /* Example: Add some padding around the grid */
+}.my-masonry-grid {
+  display: -webkit-box; /* Not needed if you only target modern browsers */
+  display: -ms-flexbox; /* Not needed if you only target modern browsers */
+  display: flex;
+  margin-left: -30px; /* Gutter size offset */
+  width: auto;
+}.my-masonry-grid_column {
+  padding-left: 30px; /* Gutter size */
+  background-clip: padding-box;
+}
+
+/* Optional: Style the images */.my-masonry-grid_column > div img {
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
