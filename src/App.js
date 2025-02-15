@@ -2,40 +2,31 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import About from './components/About';
-import Adversity from './components/Adversity'; // Make sure this file exists
 import BlogPosts from './components/BlogPosts'; // Make sure this file exists
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Header from './components/Header';
 import Navbar from './components/Navbar';
-import SelfAdvocacy from './components/SelfAdvocacy'; // Adjust the path based on your project structure
 
 
 function App() {
   return (
     <Router>
-      <Header />
-      <Navbar />
-      <Routes>
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/posts/adversity" element={<Adversity />} /> {/* Adversity Route */}
-        <Route path="/posts/self-advocacy" element={<SelfAdvocacy />} /> {/* Self-Advocacy Route */}
-        <Route path="/blogs" element={<BlogPosts />} /> {/* Blogs Route */}
-      </Routes>
-      <Footer />
+      <div>
+        <Navbar />
+
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/posts" element={<BlogPosts />} /> {/* Blog post list */}
+          <Route path="/posts/:slug" element={<BlogPosts />} /> {/* Individual posts */}
+          {/*... other routes... */}
+          <Route path="*" element={<NotFound />} /> {/* Catch-all route */}
+        </Routes>
+
+        <Footer />
+      </div>
     </Router>
   );
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
-
