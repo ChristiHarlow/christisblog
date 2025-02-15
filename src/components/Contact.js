@@ -1,24 +1,8 @@
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import Masonry from 'react-masonry-css'; // Install: npm install react-masonry-css
 import '../styles/Contact.css';
-
-function Contact() {
-  const breakpointColumnsObj = {
-    default: 3, // 3 columns on large screens
-    1100: 2, // 2 columns on medium screens
-    700: 1, // 1 column on small screens
-  };
-
-  const images = [
-      {src: "/images/michelle.png", alt: "Michelle Obama"},
-      {src: "/images/rosa.png", alt: "Rosa Parks"},
-      {src: "/images/harriet.png", alt: "Harriet Tubman"},
-      {src: "/images/malcolm.png", alt: "Malcolm X"},
-      //... more images
-  ];
-
+  
   return (
     <div className="contact-container">
       <div className="contact-info"> {/* Container for contact info */}
@@ -29,16 +13,7 @@ function Contact() {
         </a>
       </div>
 
-      <Masonry
-        breakpointCols={breakpointColumnsObj}
-        className="my-masonry-grid"
-        columnClassName="my-masonry-grid_column">
-        {images.map((image, index) => (
-          <div key={index}> {/* Important: Add a unique key */}
-            <img src={image.src} alt={image.alt} style={{ width: '100%', display: 'block' }} />
-          </div>
-        ))}
-      </Masonry>
+      
     </div>
   );
 }
