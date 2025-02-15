@@ -5,13 +5,11 @@ const blogPosts = [
   {
     id: 1,
     title: 'Healing and Growth Through Adversity',
-    content: 'Adversity often manifests in various forms, and recognizing it is the first step toward addressing its impact....',
     category: 'Personal Growth'
   },
   {
     id: 2,
     title: 'The Cost of Self-Advocacy: My Fight for Justice',
-    content: 'Self-Advocacy is about standing up even when the odds are against you...',
     category: 'Racism & Discrimination'
   },
   //... more posts
