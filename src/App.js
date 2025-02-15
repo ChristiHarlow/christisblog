@@ -13,8 +13,6 @@ import SelfAdvocacy from "./components/SelfAdvocacy";
 function App() {
   return (
     <Router>
-      <Header />
-      <Gallery />
       <Navbar />
       <Routes>
         <Route path="/about" element={<About />} />
@@ -23,6 +21,8 @@ function App() {
         <Route path="/posts/self-advocacy" element={<SelfAdvocacy />} /> {/* Self-Advocacy Route */}
         <Route path="/blogs" element={<BlogPosts />} /> {/* Blogs Route */}
       </Routes>
+      <Gallery />
+      <Header />
       <Footer />
     </Router>
   );
