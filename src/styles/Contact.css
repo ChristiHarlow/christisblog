@@ -1,38 +1,48 @@
-/* Color Palette 2: Gradient Gray Scale (already defined in previous example) */
-/* :root { ... }  No need to redefine it here if it's already in your CSS */
-
-.contact-container {
+/* Contact.css */.contact-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh; /* Use min-height instead of height */
+  flex-direction: column; /* Stack contact info and grid */
+  align-items: center; /* Center horizontally */
+  padding: 20px;
+}.contact-info { /* Style the contact info container */
   text-align: center;
-  background-color: var(--white); /* White background */
-  color: var(--dark-gray); /* Dark gray text */
-  padding: 20px; /* Add some padding */
-}
-
-.contact-title {
+  margin-bottom: 20px; /* Space between contact info and grid */
+}.contact-title {
   font-size: 2rem;
-  color: var(--black); /* Black title */
-  margin-bottom: 20px;
-}
-
-.contact-link {
+  color: var(--near-black);
+  margin-bottom: 10px;
+}.contact-link {
   font-size: 1.5rem;
-  color: var(--dark-gray); /* Dark gray link text */
+  color: var(--dark-gray);
   text-decoration: none;
   padding: 10px 20px;
-  border: 2px solid var(--medium-gray); /* Medium gray border */
+  border: 2px solid var(--medium-gray);
   border-radius: 5px;
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Add border transition */
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}.contact-link:hover {
+  background-color: var(--medium-gray);
+  color: var(--white);
+  border-color: var(--medium-gray);
 }
 
-.contact-link:hover {
-  background-color: var(--medium-gray); /* Medium gray background on hover */
-  color: var(--white); /* White text on hover */
-  border-color: var(--medium-gray); /* Match border color to background */
+
+/* Masonry Grid Styles */.my-masonry-grid {
+  display: -webkit-box; /* or display: flex; */
+  display: -ms-flexbox; /* or display: flex; */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* each item */.my-masonry-grid_column > div { /* change div to the element selector you want */
+  margin-bottom: 30px;
+}
+
+/* Image Styles */.my-masonry-grid_column img {
+  border-radius: 8px; /* Rounded corners for images */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for images */
 }
 
 
