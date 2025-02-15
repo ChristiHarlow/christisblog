@@ -6,13 +6,11 @@ const blogPosts = [
   {
     id: 1,
     title: 'Healing and Growth Through Adversity',
-    content: 'This post explores how my experiences have led to personal growth and healing...',
     category: 'Personal Growth'
   },
   {
     id: 2,
     title: 'The Cost of Self-Advocacy: My Fight for Justice',
-    content: 'Black women who assert themselves are seen as difficult, combative, or insubordinate....',
     category: 'Racism & Discrimination'
   },
   //... more blog posts
