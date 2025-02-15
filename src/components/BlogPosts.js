@@ -1,42 +1,41 @@
 import React from 'react';
-import { Link, useParams } from 'react-router-dom'; // Import useParams
-import '../styles/BlogPosts.css';
-import blogPosts from './BlogPostDetails';
+import '../styles/BlogPosts.css'; // Ensure the path to the CSS is correct
+
+// Define blogPosts array
+const blogPosts = [
+  {
+    id: 1,
+    title: 'Healing and Growth Through Adversity',
+    content: 'This post explores how my experiences have led to personal growth and healing...',
+    category: 'Personal Growth'
+  },
+  {
+    id: 2,
+    title: 'The Cost of Self-Advocacy: My Fight for Justice',
+    content: 'Black women who assert themselves are seen as difficult, combative, or insubordinate....',
+    category: 'Racism & Discrimination'
+  },
+  //... more blog posts
+];
 
 function BlogPosts() {
-  const { slug } = useParams(); // Get the slug from the URL
   const categories = [...new Set(blogPosts.map(post => post.category))];
 
-  // Find the current post based on the slug (if there is one)
-  const currentPost = slug? blogPosts.find(post => post.slug === slug): null;
-
   return (
-    <div className="blog-posts-container">
-      <h1>Blog Posts</h1>
-
-      {/* Conditionally render content */}
-      {currentPost? ( // If a slug is in the URL, show only that post
-        <div className="blog-post">
-          <h3>{currentPost.title}</h3>
-          <p>{currentPost.content}</p>
+    <div>
+      {categories.map(category => (
+        <div key={category}>
+          <h2>{category}</h2>
+          {blogPosts
+          .filter(post => post.category === category)
+          .map(filteredPost => (
+              <div key={filteredPost.id}>
+                <h3>{filteredPost.title}</h3>
+                <p>{filteredPost.content}</p> 
+              </div>
+            ))}
         </div>
-      ): ( // Otherwise, show all posts categorized
-        categories.map(category => (
-          <div key={category}>
-            <h2>{category}</h2>
-            {blogPosts
-            .filter(post => post.category === category)
-            .map(post => (
-                <div key={post.id} className="blog-post">
-                  <Link to={`/posts/${post.slug}`} className="post-title-link"> {/* Link to individual post */}
-                    <h3>{post.title}</h3>
-                  </Link>
-                  <p>{post.content.slice(0, 200)}...</p> {/* Shortened content */}
-                </div>
-              ))}
-          </div>
-        ))
-      )}
+      ))}
     </div>
   );
 }
