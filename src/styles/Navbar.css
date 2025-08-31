@@ -1,18 +1,19 @@
 /* Color Palette 4: High Contrast with Dark Gray */
 :root {
-  --near-black: #111111;
-  --dark-gray: #333333;
-  --white: #FFFFFF;
-  --light-gray: #EEEEEE;
+  /* Monochrome Chic */
+  --bg: #f1f0ea;        /* page background */
+  --ink: #2d232e;       /* main text */
+  --primary: #474448;   /* strong accent */
+  --secondary: #534b52; /* softer accent */
+  --muted: #e0ddcf;     /* subtle surfaces/borders */
 }
-
 .navbar {
-  background-color: var(--near-black); /* Near-Black background */
+  background-color: var(--primary); /* Near-Black background */
   padding: 10px;
   display: flex;
   justify-content: center;
   gap: 10px;
-  border-bottom: 2px solid var(--dark-gray); /* Dark Gray border */
+  border-bottom: 2px solid var(--secondary); /* Dark Gray border */
 }
 
 .navbar-list {
@@ -26,15 +27,15 @@
 .nav-link {
   text-decoration: none;
   font-size: 1.3rem;
-  color: var(--light-gray); /* Light Gray text */
+  color: var(--muted); /* Light Gray text */
   padding: 10px 15px;
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .nav-link:hover {
-  background-color: var(--dark-gray); /* Dark Gray on hover */
-  color: var(--white); /* White text on hover */
+  background-color: var(--secondary); /* Dark Gray on hover */
+  color: var(--bg); /* White text on hover */
 }
 
 .dropdown {
@@ -52,7 +53,7 @@
 .dropdown-menu {
   
    position: static; /* so it pushes layout */
-  background-color: var(--dark-gray);
+  background-color: var(--secondary);
   border-radius: 5px;
   padding: 10px;
   margin-top: 4px;
@@ -68,12 +69,12 @@
 .dropdown-item {
   padding: 5px 10px;
   text-decoration: none;
-  color: var(--white); /* White dropdown text */
+  color: var(--bg); /* White dropdown text */
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 .dropdown-item:hover {
-  background-color: var(--light-gray); /* Light Gray on hover */
-  color: var(--near-black); /* Near-Black text on hover */
+  background-color: var(--muted); /* Light Gray on hover */
+  color: var(--ink); /* Near-Black text on hover */
 }
