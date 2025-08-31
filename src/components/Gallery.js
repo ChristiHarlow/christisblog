@@ -7,9 +7,9 @@ export default function Gallery() {
 
   const [copiedId, setCopiedId] = useState(null);
   const quotes = [
-    { id: "q1", text: "Healing and growth often begin where comfort ends.", author: "Christi A. Harlow", tags: ["growth","resilience"] },
-    { id: "q2", text: "Self-advocacy isn’t noise; it’s the sound of dignity.", author: "Christi A. Harlow", tags: ["advocacy","equity"] },
-    { id: "q3", text: "Design is care made visible. Code is care made reliable.", author: "Christi A. Harlow", tags: ["frontend","craft"] },
+    { id: "q1", text: "When someone shows you who they are, believe them the first time.", author: "Maya Angelou", tags: ["growth","resilience"] },
+    { id: "q2", text: "You can't separate peace from freedom because no one can be at peace unless he has his freedom.", author: "Malcolm X", tags: ["peace","freedom"] },
+    { id: "q3", text: "Injustice anywhere is a threat to justice everywhere.", author: "Martin Luther King Jr", tags: ["inujustice","justice"] },
     { id: "q4", text: "Peace of mind begins when comparison ends.", author: "Unknown", tags: ["mindset"] },
   ];
 
