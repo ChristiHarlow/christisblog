@@ -18,8 +18,9 @@
 
 /* Quote card (inherits .card if you defined it globally; still safe standalone) */
 .card {
-  background: color-mix(in oklab, var(--muted) 75%, white);
-  border: 1px solid color-mix(in oklab, var(--secondary) 60%, transparent);
+  background: var(--muted);
+  border: 1px solid var(--primary);
+  color: var(--ink);
   border-radius: 12px;
   box-shadow: 0 6px 16px rgba(0,0,0,.15);
   transition: transform .15s ease, box-shadow .15s ease;
