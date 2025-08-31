@@ -1,22 +1,25 @@
-import React from 'react';
-import Masonry from 'react-masonry-css';
-import '../styles/Gallery.css';
+import React, { useState } from "react";
+import Masonry from "react-masonry-css";
+import "../styles/Gallery.css";
 
-function Gallery() {
-  const breakpointColumnsObj = {
-    default: 3,
-    1100: 2,
-    700: 1
-  };
+export default function Gallery() {
+  const breakpointColumnsObj = { default: 3, 1100: 2, 700: 1 };
 
+  const [copiedId, setCopiedId] = useState(null);
   const quotes = [
-    { text: "Healing and growth often begin where comfort ends.", author: "Christi A. Harlow" },
-    { text: "Self-advocacy isn’t noise; it’s the sound of dignity.", author: "Christi A. Harlow" },
-    { text: "Design is care made visible. Code is care made reliable.", author: "Christi A. Harlow" },
-    { text: "Peace of mind begins when comparison ends.", author: "Unknown" },
-    { text: "Your voice matters. Don’t let anyone silence it.", author: "Christi A. Harlow" },
-    // add more quotes here
+    { id: "q1", text: "Healing and growth often begin where comfort ends.", author: "Christi A. Harlow", tags: ["growth","resilience"] },
+    { id: "q2", text: "Self-advocacy isn’t noise; it’s the sound of dignity.", author: "Christi A. Harlow", tags: ["advocacy","equity"] },
+    { id: "q3", text: "Design is care made visible. Code is care made reliable.", author: "Christi A. Harlow", tags: ["frontend","craft"] },
+    { id: "q4", text: "Peace of mind begins when comparison ends.", author: "Unknown", tags: ["mindset"] },
   ];
+
+  const copyQuote = async (q) => {
+    try {
+      await navigator.clipboard.writeText(`"${q.text}" — ${q.author || "Unknown"}`);
+      setCopiedId(q.id);
+      setTimeout(() => setCopiedId(null), 1200);
+    } catch (e) {}
+  };
 
   return (
     <div className="gallery-container">
@@ -25,15 +28,29 @@ function Gallery() {
         className="my-masonry-grid"
         columnClassName="my-masonry-grid_column"
       >
-        {quotes.map((quote, index) => (
-          <div key={index} className="quote-card">
-            <p className="quote-text">“{quote.text}”</p>
-            <p className="quote-author">— {quote.author}</p>
-          </div>
+        {quotes.map((q) => (
+          <article key={q.id} className="quote-card card" role="figure" aria-label="Quote">
+            <blockquote className="quote-text">“{q.text}”</blockquote>
+            {q.author && <figcaption className="quote-author">— {q.author}</figcaption>}
+
+            {!!(q.tags?.length) && (
+              <ul className="quote-tags" aria-label="Tags">
+                {q.tags.map((t) => <li key={t}>{t}</li>)}
+              </ul>
+            )}
+
+            <div className="quote-actions">
+              <button
+                className="btn-ghost"
+                onClick={() => copyQuote(q)}
+                aria-label="Copy quote to clipboard"
+              >
+                {copiedId === q.id ? "Copied!" : "Copy"}
+              </button>
+            </div>
+          </article>
         ))}
       </Masonry>
     </div>
   );
 }
-
-export default Gallery;

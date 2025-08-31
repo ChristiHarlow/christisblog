@@ -1,44 +1,96 @@
+/* Container */
 .gallery-container {
   width: 90%;
   max-width: 1100px;
   margin: 2rem auto;
 }
 
+/* Masonry layout */
 .my-masonry-grid {
   display: flex;
-  margin-left: -1rem; /* gutter size offset */
+  margin-left: -1rem;          /* gutter offset */
   width: auto;
 }
 .my-masonry-grid_column {
-  padding-left: 1rem; /* gutter size */
+  padding-left: 1rem;          /* gutter */
   background-clip: padding-box;
 }
 
-.quote-card {
-  background: color-mix(in oklab, var(--bg) 85%, black);
-  border: 1px solid color-mix(in oklab, var(--ink) 55%, transparent);
+/* Quote card (inherits .card if you defined it globally; still safe standalone) */
+.card {
+  background: color-mix(in oklab, var(--muted) 75%, white);
+  border: 1px solid color-mix(in oklab, var(--secondary) 60%, transparent);
   border-radius: 12px;
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 1rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 6px 16px rgba(0,0,0,.15);
   transition: transform .15s ease, box-shadow .15s ease;
 }
+.card:hover { transform: translateY(-2px); box-shadow: 0 10px 24px rgba(0,0,0,.18); }
 
-.quote-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+.quote-card {
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  border-left: 6px solid var(--primary);
 }
 
+/* Typography */
 .quote-text {
-  font-size: 1.1rem;
-  line-height: 1.5;
+  margin: 0 0 .6rem;
+  font-size: clamp(1.05rem, 2.2vw, 1.25rem);
+  line-height: 1.6;
   color: var(--ink);
-  margin: 0 0 0.75rem;
+}
+.quote-author {
+  margin: .1rem 0 .75rem;
+  font-weight: 700;
+  color: color-mix(in oklab, var(--ink) 70%, var(--secondary));
 }
 
-.quote-author {
-  text-align: right;
-  font-size: 0.95rem;
+/* Tags */
+.quote-tags {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 .6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem .5rem;
+}
+.quote-tags li {
+  background: color-mix(in oklab, var(--primary) 18%, transparent);
+  border: 1px solid var(--primary);
+  color: #fff;
   font-weight: 600;
-  color: var(--brand);
+  border-radius: 999px;
+  padding: .2rem .55rem;
+  font-size: .85rem;
+}
+
+/* Actions */
+.quote-actions { display: flex; justify-content: flex-end; }
+.btn-ghost {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid color-mix(in oklab, var(--secondary) 50%, transparent);
+  border-radius: 8px;
+  padding: .35rem .65rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .15s ease, transform .12s ease, border-color .15s ease, color .15s ease;
+}
+.btn-ghost:hover,
+.btn-ghost:focus-visible {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+  transform: translateY(-1px);
+  outline: none;
+}
+
+/* Accessibility / motion */
+@media (prefers-reduced-motion: reduce) {
+  .card, .btn-ghost { transition: none; }
+}
+
+/* Small screens */
+@media (max-width: 500px) {
+  .gallery-container { width: 92%; margin: 1.25rem auto; }
 }
