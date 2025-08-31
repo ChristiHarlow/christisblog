@@ -1,13 +1,4 @@
 /* Global styles */
-body {
-  font-family: 'Geologica', sans-serif; /* Apply the Geologica font globally */
-  color: #333; /* Global text color */
-  background-color: #ffffff; /* Global background color */
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
   --bg: #f1f0ea;       /* light background */
   --ink: #2d232e;      /* dark text */
@@ -16,6 +7,14 @@ body {
   --muted: #e0ddcf;    /* muted tone for cards/borders */
 }
 
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
+  line-height: 1.6;
+}
 
 .App {
   text-align: center;
