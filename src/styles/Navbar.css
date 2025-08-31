@@ -38,7 +38,7 @@
 }
 
 .dropdown {
-  position: relative;
+   position: static; /* let it flow in layout */
 }
 
 .dropdown-button {
@@ -50,15 +50,19 @@
 }
 
 .dropdown-menu {
-  position: absolute;
-  top: 40px;
-  left: 0;
-  background-color: var(--dark-gray); /* Dark Gray dropdown */
+  
+   position: static; /* so it pushes layout */
+  background-color: var(--dark-gray);
   border-radius: 5px;
   padding: 10px;
-  display: flex;
+  margin-top: 4px;
   flex-direction: column;
-  z-index: 1; /* Ensure dropdown is above other content */
+  gap: 6px;
+  
+}
+
+.dropdown.open .dropdown-menu {
+  display: flex; /* only show when Navbar.js adds .open */
 }
 
 .dropdown-item {
