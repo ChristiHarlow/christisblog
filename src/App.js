@@ -15,13 +15,15 @@ function App() {
     <Router>
       <Header />
       <Navbar />
+      <main>
       <Routes>
+        <Route path="/" element={<Gallery />} />   {/* Home page */}
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/posts/adversity" element={<Adversity />} /> {/* Adversity Route */}
         <Route path="/posts/self-advocacy" element={<SelfAdvocacy />} /> {/* Self-Advocacy Route */}
         </Routes>
-      <Gallery />
+      </main>
       <Footer />
     </Router>
   );
