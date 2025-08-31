@@ -5,7 +5,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, var(--primary), var(--secondary), var(--ink));
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: var(--muted);
+  text-align: center;
   background-size: 200% 200%;
   animation: gradientShift 12s ease infinite;
 }
