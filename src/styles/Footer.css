@@ -1,32 +1,21 @@
 .footer {
   position: relative;
   width: 100%;
-  height: 200px; /* Similar feel to header */
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--bg);
-  overflow: hidden;
-}
-
-.footer-banner {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: brightness(0.5);
-}
-
-.footer-text-overlay {
-  position: absolute;
-  text-align: center;
+  background: linear-gradient(135deg, var(--ink), var(--secondary), var(--primary));
+  background-size: 200% 200%;
+  animation: gradientShift 12s ease infinite;
 }
 
 .footer-tagline {
   font-size: clamp(1rem, 2vw, 1.5rem);
   font-weight: 600;
-  color: #fff;
+  color: var(--muted);
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
   margin: 0;
-  text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
 }
 
 

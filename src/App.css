@@ -8,6 +8,15 @@ body {
   box-sizing: border-box;
 }
 
+:root {
+  --bg: #f1f0ea;       /* light background */
+  --ink: #2d232e;      /* dark text */
+  --primary: #474448;  /* strong accent */
+  --secondary: #534b52;/* softer accent */
+  --muted: #e0ddcf;    /* muted tone for cards/borders */
+}
+
+
 .App {
   text-align: center;
 }
