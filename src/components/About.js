@@ -6,18 +6,14 @@ function About() {
     <div className="about-container">
       <h1 className="about-title">Christi's Blog</h1>
       <p className="about-content">
-  Welcome! I’m Christi, and I’m glad you’ve found your way here. 
-  This blog is a space where I share my journey of healing, growth, and the life experiences that have shaped me along the way. 
-  From navigating challenging workplaces and standing up to discrimination, and retaliation, to confronting microaggressions and systemic racism, I reflect on the emotional, psychological, and professional toll these experiences take. This blog serves as a space to explore the adversities I’ve encountered and the lessons I’ve learned through them, including my journey of discovering new passions in web development and beyond.
+ Welcome! I’m Christi, and I’m glad you’ve found your way here.
+This blog is a space where I share my journey of healing, growth, and the life experiences that continue to shape me.
 
-  You’ll find posts on topics like microaggressions in the workplace, resilience through tough times, 
-  and how we can all grow through adversity. After a five-year journey of fighting for my rights, 
-  I've learned that healing takes many forms, and growth often comes from the most unexpected places.
+Along the way, I’ve faced challenges that tested my resilience and moments that pushed me to rediscover who I am and what I value. These experiences have taught me that healing is never one-size-fits-all, and growth often emerges in surprising ways — whether through adversity, new passions, or unexpected opportunities.
 
-  My hope is that this blog can serve as a space for open dialogue, reflection, and empowerment. 
-  Whether you’ve experienced similar challenges or are simply looking for inspiration on your own journey, 
-  I hope my experiences resonate with you and spark meaningful conversations. 
-  Thank you for joining me on this path of healing and growth.
+Here you’ll find reflections on resilience, self-advocacy, and the lessons we can carry forward when life doesn’t go as planned. My hope is that this space serves as a source of encouragement, reflection, and dialogue — whether you’re navigating your own challenges or simply seeking inspiration on your personal journey.
+
+Thank you for joining me as we walk this path of healing and growth together.
 </p>
 
     </div>
